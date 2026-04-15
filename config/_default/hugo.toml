@@ -1,0 +1,70 @@
+baseURL = "https://badpaybad.github.io/"
+locale = "vi"
+defaultContentLanguage = "vi"
+title = "Nguyễn Phan Du's Blog"
+theme = "blowfish"
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.vi]
+    locale = "vi"
+    contentDir = "content"
+    weight = 1
+    title = "Nguyễn Phan Du's Blog"
+    [languages.vi.params]
+      displayName = "Tiếng Việt"
+      isoCode = "vi"
+      description = "Blog cá nhân về PC A.I Agentic"
+
+[params]
+  colorScheme = "blowfish"
+  defaultAppearance = "light"
+  autoSwitchAppearance = true
+  isoCode = "vi"
+  mainSections = ["posts", "pc-ai-agentic", "sharing"]
+
+[homepage]
+  layout = "card"
+  showRecent = true
+  showRecentItems = 10
+  showMoreLink = true
+  cardView = true
+
+[article]
+  showDate = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "background"
+  showReadingTime = true
+  showTableOfContents = true
+  showPagination = true
+
+[[menu.main]]
+  name = "Blogs"
+  pageRef = "posts"
+  weight = 10
+
+[[menu.main]]
+  name = "Me?"
+  pageRef = "me"
+  weight = 20
+
+[[menu.main]]
+  name = "PC AI Agentic"
+  pageRef = "pc-ai-agentic"
+  weight = 30
+
+[[menu.main]]
+  name = "Sharing"
+  pageRef = "sharing"
+  weight = 40
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showAppearanceSwitcher = true
