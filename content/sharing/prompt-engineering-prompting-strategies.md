@@ -1,0 +1,72 @@
+---
+title: "Prompt Engineering - Prompting Strategies"
+date: 2026-04-19T12:00:00+07:00
+description: "Back to basic - Prompt Engineering - Prompting Strategies, hiểu cách hoạt động và làm prompt tốt hơn"
+featured_image: "img/featured.png"
+categories: ["PC AI Agentic", "Sharing"]
+tags: ["llm", "ai", "prompt"]
+---
+
+# Các đặc thù của A.I LLM 
+
+Bộ máy thông minh tạo ra chữ từ chữ được đưa cho, bạn gần như chỉ cần hiểu nó là 1 blackbox, một hàm thông minh bạn không rõ bên trong có gì. Nhận đầu vào là string và return là string. Nhận Input string và trả Output string
+
+Cần một năng lực tính toán và bộ nhớ khổng lồ để ra kết quả tốt. 
+
+Sâu thẳm là khái niệm self attention, giống như việc bạn đọc một câu chuyện, bạn sẽ chú ý đến các từ khóa, các từ quan trọng để hiểu câu chuyện. 
+
+# Làm sao để khai thác nó tốt?
+
+Bạn cần hiểu cách tạo ra string input tốt để A.I LLM có thể hiểu và trả ra string output kết quả tốt. 
+
+## Các tài liệu tham khảo sẽ giúp bạn
+
+[Prompt Engineering](https://drive.google.com/file/d/1wHqX_qkG4eF__SQKxFZVNoZ7KhzATdGE/view?usp=sharing)
+
+[Prompting Strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)
+
+[Agentic Design Patterns](https://drive.google.com/file/d/1MNO1N14au4LcC7CH1lsWq9w1LokfhZZa/view?usp=sharing)
+
+# Kinh nghiệm bản thân
+
+## Các khái niệm 
+
+- Self attention: Giống như việc bạn đọc một câu chuyện, bạn sẽ chú ý đến các từ khóa, các từ quan trọng để hiểu câu chuyện. 
+
+- Context: Là việc cộng dồn string rồi tạo thành input string cho A.I LLM
+
+- System instruction: Trong input string bạn đưa cho LLM thì đoạn đầu tiên thường là system instruction, nó sẽ định hướng cho LLM hiểu nó là ai, nó cần làm gì, nó cần trả ra kết quả như thế nào.
+
+- Prompt: Là các string bạn cộng chuỗi thêm vào sau system instruction. Nếu cấu trúc tốt thì LLM sẽ hiểu và trả ra kết quả tốt. 
+
+- Data feed: Là các string bạn cộng chuỗi thêm vào sau prompt để phục vụ việc khai thác dữ liệu nhờ LLM đọc hiểu prompt để khai thác dữ liệu. 
+
+- Markdown: Cấu trúc để bố trí text, đơn giản và dễ đọc, dễ hiểu cho LLM. 
+
+- Tools (tool calls, functions call): Là một dạng prompt đặc biệt để **lập trình viên** có thể định nghĩa tên hàm , mô tả hàm, tham số hàm, và LLM sẽ trả ra kết quả là một string chứa tên hàm và tham số hàm để **lập trình viên** có thể gọi hàm đó và trả lại kết quả cho LLM. (Tức là ở output string nhận được lập trình viên sẽ regex if else ... tên hàm rồi gọi code chạy thật)
+
+- A.I Workflow: Là một chuỗi các prompt, tool call được sắp xếp theo một trình tự nhất định để xử lý một tác vụ cụ thể. Có thể do lập trình viên sắp xếp code, kéo thả như n8n, make.com ...
+
+- A.I Agent: Là một đoạn code, với vòng lặp vô tận ( while true) dùng các prompt, tool call để lấy data feed tạo context cho LLM xử lý cho tới khi trả được kết quả cuối cho người dùng. Tức là có thinking có suy luận rồi thực thi (tools) cho tới khi có kết quả như prompt mong muốn.
+
+- A.I MCP (Model context protocol): Là giao thức kết nối giữa AI và Nguồn dữ liệu/Công cụ. Là đề cập tới việc các đoạn code viết ra Agent hoặc wrap LLM, đưa ra cấu trúc định nghĩa tools vào LLM và LLM có thể gọi tools để lấy dữ liệu hoặc thực hiện hành động. 
+
+- A.I Agentic: Là một hệ thống gồm nhiều A.I Agent làm việc cùng nhau để giải quyết một vấn đề phức tạp. Tiến tới việc AI có thể tự động hóa các tác vụ phức tạp, thay thế con người trong nhiều công việc.
+
+- Hallucination (ảo giác): Do context có thể lớn, data feed và prompt để xử lý bị chiếm thiểu số, LLM có đặc tính self attention nên bị nhầm lẫn thông tin, dẫn tới trả ra kết quả sai lệch so với thực tế. 
+
+## Các kỹ thuật
+
+- Memmory: Là việc lưu trữ các thông tin cần thiết để A.I LLM có thể sử dụng trong các lần tương tác sau. 
+
+- Short memory (trí nhớ ngắn hạn): Chính là context bạn đưa cho LLM trong một lần tương tác. 
+
+- Long memory (trí nhớ dài hạn): Là việc lưu trữ các thông tin cần thiết để A.I LLM có thể sử dụng trong các lần tương tác sau. Thường là các file text, markdown, json, database, vector database... Bạn sẽ cần tools để lấy thông tin trong quá trình suy luận của A.I Agent.
+
+- Orchestration, Router (điều phối, điều hướng): Là một Agent làm việc sắp xếp để cộng dồn các prompt, data feed một cách thông minh để A.I LLM có thể hiểu và trả ra kết quả tốt. Bạn có thể định nghĩa nhiều prompt + tools ở nhiều folder (Skills), nhưng khi chạy thật dựa trên context LLM sẽ quyết định cộng chuỗi prompt nào, data feed nào vào context để xử lý và tools để thực hiện hành động thật. 
+
+- Spec driven: Viết yêu cầu vào một file .md (specification.md todo.md yeucau.md) và để A.I Agent ghi lại suy nghĩ cách làm ra file .md (plan.md implementation.md timhieu.md) khác 
+
+## Các ví dụ thực tế 
+
+- comming soon

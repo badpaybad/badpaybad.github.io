@@ -12,7 +12,9 @@ The one with coding hobbies.
 
 Should look careful your line code, that why I like C# (See sharp)
 
-LLM Vistral in llamacpp with CPU: [https://github.com/badpaybad/Ner_Llm_Gpt](https://github.com/badpaybad/Ner_Llm_Gpt)
+PC A.I Agentic: [https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
+
+Ngôn ngữ lập trình và tiến hóa: punched card -> machine code -> Low level language code, Assembly code -> High level language code -> Human lager language model vibe code
 
 ### Markdown
 
