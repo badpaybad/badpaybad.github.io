@@ -7,7 +7,15 @@ categories: ["PC AI Agentic", "Sharing"]
 tags: ["llm", "ai", "prompt"]
 ---
 
+A.I LLM phát triển rất nhanh về việc ứng dụng và sử dụng vào công việc và cuộc sống. Bạn hàng ngày sẽ nhận được rất nhiều cách làm, rất nhiều MVP ( minimum value product) để demo. Bạn thấy rất FOMO (nỗi sợ bị đứng ngoài), các từ khóa liên tục xuất hiện vd  harness engineering ... và muốn học thật nhanh, thật nhiều. Và cũng nhiều mô hình A.I LLM liên tục cập nhật ...
+
+Nhưng bạn có bao giờ dừng lại và tự hỏi chạy theo mãi thì đến bao giờ mới dừng? 
+
+Back to basic, hãy quay về với những gì là căn bản nhất để tự tin hơn khi sử dụng A.I LLM. A.I LLM sẽ thành nền tảng của xã hội mới hãy nắm bắt một cách có trách nhiệm và hiệu quả.
+
 # Các đặc thù của A.I LLM 
+
+Nó giống như bộ não thứ 2 của con người, sẽ khuếch đại năng lực của con người lên rất nhiều lần, nhưng cũng sẽ khuếch đại những sai lầm. 
 
 Bộ máy thông minh tạo ra chữ từ chữ được đưa cho, bạn gần như chỉ cần hiểu nó là 1 blackbox, một hàm thông minh bạn không rõ bên trong có gì. Nhận đầu vào là string và return là string. Nhận Input string và trả Output string
 
