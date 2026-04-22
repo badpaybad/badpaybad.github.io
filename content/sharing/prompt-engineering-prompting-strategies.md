@@ -95,11 +95,14 @@ Vd về ứng dụng ban đầu dựng app hay web thì quan trọng nhất vẫ
 Làm cuốn chiếu xong gì dứt điểm đó và bản thân phải kiểm soát từng lần làm của A.I
 
 Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó cập nhật suy nghĩ và cách làm vào phattrien.md 
-![ai-guide-prompt](img/ai-guide-prompt.png)
+
+                gõ vào ô chát A.I của IDE vd: @yeucau.md **cập nhật 2026-04-22 09:09:09**
+
+![ai-guide-prompt](static/img/ai-guide-prompt.png)
 
 
 ## Nguyên tắc làm việc với AI lifecycle
 
 Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm xong mới test lúc đó tech debt quá lớn ko gỡ đc 
 
-![AI-software-lifecycle](img/AI-software-lifecycle.png)
+![AI-software-lifecycle](static/img/AI-software-lifecycle.png)
