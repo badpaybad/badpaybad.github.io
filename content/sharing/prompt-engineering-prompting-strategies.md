@@ -103,6 +103,6 @@ Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó c
 
 ## Nguyên tắc làm việc với AI lifecycle
 
-Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm xong mới test lúc đó tech debt quá lớn ko gỡ đc 
+Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm 1 núi xong mới test, review lúc đó tech debt quá lớn ko gỡ đc 
 
 ![AI-software-lifecycle](/img/AI-software-lifecycle.png)
