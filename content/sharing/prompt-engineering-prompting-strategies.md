@@ -98,11 +98,11 @@ Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó c
 
                 gõ vào ô chát A.I của IDE vd: @yeucau.md **cập nhật 2026-04-22 09:09:09**
 
-![ai-guide-prompt](static/img/ai-guide-prompt.png)
+![ai-guide-prompt](/img/ai-guide-prompt.png)
 
 
 ## Nguyên tắc làm việc với AI lifecycle
 
 Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm xong mới test lúc đó tech debt quá lớn ko gỡ đc 
 
-![AI-software-lifecycle](static/img/AI-software-lifecycle.png)
+![AI-software-lifecycle](/img/AI-software-lifecycle.png)
