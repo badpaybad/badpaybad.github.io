@@ -95,6 +95,7 @@ Lặp lại câu cuối chậm dần:
 
 
 # KHÁT VỌNG - Mao A Mẫn 
+
 la la re2 do2 re2 mi2
 32 32 23 21 23 10
 mi2-sol2 do2 si-la sol la mi sol la
