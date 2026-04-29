@@ -96,57 +96,57 @@ Lặp lại câu cuối chậm dần:
 
 # KHÁT VỌNG - Mao A Mẫn 
 
-la la re2 do2 re2 mi2
-32 32 23 21 23 10
-mi2-sol2 do2 si-la sol la mi sol la
-10-13 21 20-32 30 32 42 30 32
-mi sol la re2 la do2
-42 30 32 23 21
-la-la do2 la sol2 mi2 re
-32-32 21 32 13 10 23
-mi2 mi2 sol2 mi2 la2
-10 10 13 10 13-15
-la2 sol2 mi2 re2 mi2 la do2
-15 13 10 23 10 32 21
-la do2 re2, mi2 sol2 do2,
-32 21 23 10 13 21
-si la sol la mi sol la
-20 32 30 32 42 30 32
-la la re2 do2 re2 mi2
-32 32 23 21 23 10
-mi2-sol2 do2 si-la sol la mi sol la
-10-13 21  20 32 30 32 42 30 32
-mi sol la re2 la do2
-42 30 32 23 21
-la-la do2 la sol2 mi2 re2
-32-32 21 32 13 10 23
-mi2 mi2 sol2 mi2 la2
-10 10 13 10 15
-la2 sol2 mi2 re2 mi2 la do2
-15 13 10 23 10 32 21
-la do2 re2, mi2 sol2 do2,
-32 21 23 10 13 21
-si la sol la mi sol la
-20 32 30 32 42 30 32
+                la la re2 do2 re2 mi2
+                32 32 23 21 23 10
+                mi2-sol2 do2 si-la sol la mi sol la
+                10-13 21 20-32 30 32 42 30 32
+                mi sol la re2 la do2
+                42 30 32 23 21
+                la-la do2 la sol2 mi2 re
+                32-32 21 32 13 10 23
+                mi2 mi2 sol2 mi2 la2
+                10 10 13 10 13-15
+                la2 sol2 mi2 re2 mi2 la do2
+                15 13 10 23 10 32 21
+                la do2 re2, mi2 sol2 do2,
+                32 21 23 10 13 21
+                si la sol la mi sol la
+                20 32 30 32 42 30 32
+                la la re2 do2 re2 mi2
+                32 32 23 21 23 10
+                mi2-sol2 do2 si-la sol la mi sol la
+                10-13 21  20 32 30 32 42 30 32
+                mi sol la re2 la do2
+                42 30 32 23 21
+                la-la do2 la sol2 mi2 re2
+                32-32 21 32 13 10 23
+                mi2 mi2 sol2 mi2 la2
+                10 10 13 10 15
+                la2 sol2 mi2 re2 mi2 la do2
+                15 13 10 23 10 32 21
+                la do2 re2, mi2 sol2 do2,
+                32 21 23 10 13 21
+                si la sol la mi sol la
+                20 32 30 32 42 30 32
 
-sol2 sol2 sol2 mi2 sol2 la2
-13 13 13 10 13 15
-sol2 la2 si2 la2 sol2 la2 sol2 mi2
-13 15 17 15 13 15 13 10
-la do2 re2, mi2 sol2 do2
-32 21 23 10 13 21
-la do2 re2, la do2 sol2 sol2 mi2 re2
-32 21 23 32 21  13-13 10 23
-sol2 sol2 sol2 mi2 sol2 la2
-13 13 13 10 13 15
-sol2 la2 si2 la2 sol2 la2 sol2 mi2
-13 15 17 15 13 15 13 10
-re2 do2 re2, re2 mi2 do2
-32 21 32  32 10 21
-si la sol la mi sol la
-20 32 30 32 42 30 32
+                sol2 sol2 sol2 mi2 sol2 la2
+                13 13 13 10 13 15
+                sol2 la2 si2 la2 sol2 la2 sol2 mi2
+                13 15 17 15 13 15 13 10
+                la do2 re2, mi2 sol2 do2
+                32 21 23 10 13 21
+                la do2 re2, la do2 sol2 sol2 mi2 re2
+                32 21 23 32 21  13-13 10 23
+                sol2 sol2 sol2 mi2 sol2 la2
+                13 13 13 10 13 15
+                sol2 la2 si2 la2 sol2 la2 sol2 mi2
+                13 15 17 15 13 15 13 10
+                re2 do2 re2, re2 mi2 do2
+                32 21 32  32 10 21
+                si la sol la mi sol la
+                20 32 30 32 42 30 32
 
-la la re2 do2 re2 mi2
-50 50 40 53 40 42
-mi2-sol2 do2 si-la sol la mi sol la
-42-30 53 52 50 63 50 60 63 50
+                la la re2 do2 re2 mi2
+                50 50 40 53 40 42
+                mi2-sol2 do2 si-la sol la mi sol la
+                42-30 53 52 50 63 50 60 63 50
