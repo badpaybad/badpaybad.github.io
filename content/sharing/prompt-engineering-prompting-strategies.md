@@ -114,3 +114,9 @@ Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó c
 Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm 1 núi xong mới test, review lúc đó tech debt quá lớn ko gỡ đc 
 
 ![AI-software-lifecycle](/img/AI-software-lifecycle.png)
+
+## Ví dụ về phát triển web dùng AI agent
+
+git source: https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought 
+
+mở IDE Google Antigravity cho folder TreeOfThought 
