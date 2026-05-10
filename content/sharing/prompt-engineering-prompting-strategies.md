@@ -108,12 +108,12 @@ Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó c
 
 ![ai-guide-prompt](/img/ai-guide-prompt.png)
 
-![ai-agentic-spec-driven](/img/ai-agentic-spec-driven.png)
-
 
 ## Nguyên tắc làm việc với AI lifecycle
 
 Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng phần 1. Ko ôm đồm. Ko để AI làm 1 núi xong mới test, review lúc đó tech debt quá lớn ko gỡ đc 
+
+![ai-agentic-spec-driven](/img/ai-agentic-spec-driven.png)
 
 ![AI-software-lifecycle](/img/AI-software-lifecycle.png)
 
