@@ -108,6 +108,8 @@ Cách để bảo IDE google antigravity cập nhật, cần chắc chắn nó c
 
 ![ai-guide-prompt](/img/ai-guide-prompt.png)
 
+![ai-agentic-spec-driven](/img/ai-agentic-spec-driven.png)
+
 
 ## Nguyên tắc làm việc với AI lifecycle
 
