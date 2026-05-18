@@ -23,6 +23,34 @@ Cần một năng lực tính toán và bộ nhớ khổng lồ để ra kết q
 
 Sâu thẳm là khái niệm self attention, giống như việc bạn đọc một câu chuyện, bạn sẽ chú ý đến các từ khóa, các từ quan trọng để hiểu câu chuyện. 
 
+A.I LLM bản chất 1 vòng loop  : đưa 1 đống text vào -> nó đẻ ra 1 đống text tiếp theo -> các A.I IDE sẽ regex or NER rồi gọi các command line để action -> write code , tạo file ...
+
+```mermaid
+flowchart TD
+    A[User Prompt + Code Base] --> B[LLM]
+    B -->|Sinh ra Text chứa Tool Call| C[Regex / Parser]
+    D[Terminal Output/Lỗi] --> E[LLM]
+    C --> F[Chạy Command]
+    F --> G[Write file]
+```
+
+
+[User Prompt + Code Base]
+│
+▼
+┌──────────┐
+│   LLM    │ ──(Sinh ra Text chứa Tool Call)──> ┌──────────────┐
+└──────────┘                                    │ Regex / Parser│
+▲                                          └──────────────┘
+│                                                 │
+(Đưa Terminal Output/Lỗi vào context)                      ▼
+│                                          ┌──────────────┐
+└───────────────────────────────────────── │ Chạy Command │
+│ (Write file) │
+└──────────────┘
+
+```
+
 # Làm sao để khai thác nó tốt?
 
 Bạn cần hiểu cách tạo ra string input tốt để A.I LLM có thể hiểu và trả ra string output kết quả tốt. 
