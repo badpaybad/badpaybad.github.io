@@ -23,7 +23,7 @@ Cần một năng lực tính toán và bộ nhớ khổng lồ để ra kết q
 
 Sâu thẳm là khái niệm self attention, giống như việc bạn đọc một câu chuyện, bạn sẽ chú ý đến các từ khóa, các từ quan trọng để hiểu câu chuyện. 
 
-A.I LLM bản chất 1 vòng loop  : đưa 1 đống text vào -> nó đẻ ra 1 đống text tiếp theo -> các A.I IDE sẽ regex or NER rồi gọi các command line để action -> write code , tạo file ...
+Agentic A.I LLM bản chất 1 vòng loop  : đưa 1 đống text vào -> nó đẻ ra 1 đống text tiếp theo -> các A.I IDE sẽ regex or NER rồi gọi các command line để action -> write code , tạo file ...
 
 ```mermaid
 flowchart TD
@@ -34,6 +34,7 @@ flowchart TD
     F --> G[Write file]
 ```
 
+```
 
 [User Prompt + Code Base]
 │
@@ -50,6 +51,8 @@ flowchart TD
 └──────────────┘
 
 ```
+
+
 
 # Làm sao để khai thác nó tốt?
 
