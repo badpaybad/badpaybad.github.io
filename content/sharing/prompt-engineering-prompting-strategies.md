@@ -157,13 +157,13 @@ BE: base infra để tạo dev rule cần tuân thủ về code: AuthAtrribute c
 
 google firebase , notify UI, FCM noti app mobi
 
-FE: base core cũng vậy dev rule : http inceptor, auth guard (ẩn hiện component , uri path access ), event bus + component register để các nghiệp vụ ko import chéo hoặc vòng vòngv
+FE: base core cũng vậy dev rule : http inceptor, auth guard (ẩn hiện component , uri path access ), event bus + component register để các nghiệp vụ ko import chéo hoặc vòng vòng
 
 Thiết kế này kể cả A.I hay dev đều dễ tuân thủ tốn ít token. thậm chí ko có A.I dev vẫn làm đc mà tốc độ chậm
 
 Khi làm nghiệp vụ chỉ cần quan tâm chính là: là logic (dev có kỹ năng BA)  và cách lưu trữ ( dev có kỹ năng về thiết kế db )
 
-Nghiệp vụ sẽ là các lib riêng độc lập
+Nghiệp vụ sẽ là các lib riêng độc lập. Developer và A.I tuân thủ core infra base. và không cần sửa core infra base 
 
 App shell: là nơi install nghiệp vụ. layout chung, load module, add ref project , npm install, nuget add ...
 
