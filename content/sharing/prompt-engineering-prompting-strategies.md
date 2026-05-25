@@ -153,3 +153,54 @@ Chia ra để trị, làm cuốn chiếu, đảm bảo chất lượng từng ph
 git source: https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought 
 
 mở IDE Google Antigravity cho folder TreeOfThought 
+
+
+### Arch design, thiết kế để A.I làm việc như 1 devloper trong dự án  
+
+
+BE: base infra để tạo dev rule cần tuân thủ về code: AuthAtrribute cho controller. abstract dbcontext , abstract cache ( rdevedis) , event bus (redis) , cqrs( handler command event )
+
+google firebase , notify UI, FCM noti app mobi
+
+FE: base core cũng vậy dev rule : http inceptor, auth guard (ẩn hiện component , uri path access ), event bus + component register để các nghiệp vụ ko import chéo hoặc vòng vòngv
+
+
+Thiết kế này kể cả A.I hay dev đều dễ tuân thủ tốn ít token. thậm chí ko có A.I dev vẫn làm đc mà tốc độ chậm
+
+Khi làm nghiệp vụ chỉ cần quan tâm chính là: là logic (dev có kỹ năng BA)  và cách lưu trữ ( dev có kỹ năng về thiết kế db )
+
+Nghiệp vụ sẽ là các lib riêng độc lập 
+
+App shell: là nơi install nghiệp vụ. layout chung, load module, add ref project , npm install, nuget add ...
+
+VD
+
+FE: angular 
+
+app shell: https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/web
+
+core:
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/web/projects/tot/core
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/web/projects/tot/shared
+
+nghiệp vụ: (lib package riêng) 
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/web/projects/tot/business-oidc
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/web/projects/tot/business-files
+
+FE: mobi
+Tương tự angular, dùng flutter 
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/frontend/mobi/my_pc_assistant
+
+BE: dotnet
+app shell: https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Web.Api
+
+core base infra : https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Base
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Session
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Redis
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Data
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Auth
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Cqrs
+
+Nghiệp vụ: (lib project độc lập) 
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.Oidc
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles/tree/main/TreeOfThought/backend/Core.Infra.FilesFolders
