@@ -153,7 +153,7 @@ mở IDE Google Antigravity cho folder TreeOfThought
 
 ### Arch design, thiết kế để A.I làm việc như 1 devloper trong dự án  
 
-BE: base infra để tạo dev rule cần tuân thủ về code: AuthAtrribute cho controller. abstract dbcontext , abstract cache ( rdevedis) , event bus (redis) , cqrs( handler command event )
+BE: base infra để tạo dev rule cần tuân thủ về code: AuthAtrribute cho controller. abstract dbcontext , abstract cache ( redis) , event bus (redis) , cqrs( handler command event )
 
 google firebase , notify UI, FCM noti app mobi
 

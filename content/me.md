@@ -16,6 +16,26 @@ PC A.I Agentic: [https://github.com/badpaybad/a.i-assistant-chatbot-telegram-ser
 
 Ngôn ngữ lập trình và tiến hóa: punched card -> machine code -> Low level language code, Assembly code -> High level language code -> Human lager language model vibe code
 
+### A.I Agentic workforce 
+
+^^ xài A.I nhiều, quá là nghiện, các công ty làm phần mềm nhờ A.I sẽ đột phá về thời gian delivery và chất lượng code (A.I code chất lượng tốt hơn con người, ít thời gian hơn). Còn chất lượng sản phẩm là vấn đề khác . Giờ đang mua token giá rẻ được. Tới năm sau mọi thứ sẽ thắt chặt => giá thành sẽ không hề rẻ , sẽ tương đương lương của 1 nhân viên trên tháng , chỉ là A.I nó có làm 24/24 được cần harness egninee phải đủ tốt và khung skill base hiện tại sẽ quyết định số tiền token phải trả cho A.I . Về A.I workforce thì không mất phí quản lý con người, du lịch bhyt bhxh thưởng thiếc hay delay or ốm đau ....
+
+
+A.I native thì còn xa xa
+
+
+A.I first sẽ cần người vận hành ( người ngồi dùng máy tính ) ra đề bài + kiểm soát chất lượng sản phẩm (BA QA QC ) 
+
+
+Skills đi theo project để giảm thiểu tiền token rules constrains ...
+
+Không cần 1 skill đa dụng sẽ không giải quyết gì , bản thân A.I IDE nó là super full stack dev có kỹ năng BA, ARCH, DEV ... rất mạnh ... nó là giáo sư biết tuốt, không cần dạy nó thêm cái gì ... cần kích hoạt đc nó = skills 
+
+
+PC A.I Agentic workforce
+
+https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:
