@@ -1,7 +1,7 @@
 baseURL = "https://badpaybad.github.io/"
 locale = "vi"
 defaultContentLanguage = "vi"
-title = "Nguyễn Phan Du's Blog"
+title = "Nguyễn Phan Du | Software Architect & AI Agentic Specialist"
 theme = "blowfish"
 
 [pagination]
@@ -9,27 +9,68 @@ theme = "blowfish"
 
 [languages]
   [languages.vi]
-    locale = "vi"
-    contentDir = "content"
-    weight = 1
-    title = "Nguyễn Phan Du's Blog"
-    [languages.vi.params]
-      displayName = "Tiếng Việt"
-      isoCode = "vi"
-      description = "Blog cá nhân về PC A.I Agentic"
+  locale = "vi"
+  contentDir = "content"
+  weight = 1
+  title = "Nguyễn Phan Du | Software Architect & AI Agentic Specialist"
+  [languages.vi.params]
+    displayName = "Tiếng Việt"
+    isoCode = "vi"
+    description = "Nguyễn Phan Du (badpaybad) - Senior Software Architect, Foundation Infra Engineer & Chuyên gia tư vấn giải pháp AI Agentic Workforce, Local LLM."
+    keywords = [
+      "Nguyễn Phan Du",
+      "badpaybad",
+      "AI Agentic",
+      "PC AI Agentic Workforce",
+      "Software Foundation Infra",
+      "Software Architect",
+      "C#",
+      "Dart Flutter FFI",
+      "C++",
+      "Local LLM",
+      "Serverless"
+    ]
 
 [params]
   colorScheme = "blowfish"
   defaultAppearance = "light"
   autoSwitchAppearance = true
   isoCode = "vi"
+  description = "Nguyễn Phan Du (badpaybad) - Senior Software Architect, Foundation Infra Engineer & Chuyên gia tư vấn giải pháp AI Agentic Workforce, Local LLM."
+  keywords = [
+    "Nguyễn Phan Du",
+    "badpaybad",
+    "AI Agentic",
+    "PC AI Agentic Workforce",
+    "Software Foundation Infra",
+    "Software Architect",
+    "C#",
+    "Dart Flutter FFI",
+    "C++",
+    "Local LLM",
+    "Serverless"
+  ]
   mainSections = ["posts", "pc-ai-agentic", "sharing"]
 
+[params.author]
+  name = "Nguyễn Phan Du"
+  image = "https://avatars.githubusercontent.com/u/6204507?v=4"
+  headline = "Software Architect | AI Agentic Specialist | Foundation & Infra Engineer"
+  bio = "Coding hobbies & IT innovation. Senior Software Architect chuyên sâu về Foundation Infra, C#, C/C++ FFI, Dart/Flutter, và giải pháp AI Agentic Workforce trên PC/Local."
+  links = [
+    { github = "https://github.com/badpaybad" },
+    { x-twitter = "https://twitter.com/badpaybad" },
+    { facebook = "https://facebook.com/badpaybad" },
+    { telegram = "https://t.me/badpaybad" },
+    { paypal = "https://www.paypal.com/paypalme/dunp211284" }
+  ]
+
 [homepage]
-  layout = "card"
+  layout = "profile"
   showRecent = true
   showRecentItems = 10
   showMoreLink = true
+  showMoreLinkDest = "posts"
   cardView = true
 
 [article]

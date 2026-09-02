@@ -1,19 +1,62 @@
 {{ if .IsHome -}}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": {{ site.Home.Permalink | safeURL }},
-    "name": "{{ .Site.Title | safeJS }}",
-    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Lang }}"inLanguage": "{{ . }}",{{ end }}
-    "url": {{ site.Home.Permalink | safeURL }},
-    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
-    "publisher" : {
-      "@type": "Person",
-      "name": "{{ .Site.Params.Author.name | safeJS }}"
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": {{ site.Home.Permalink | safeURL }},
+      "name": "{{ .Site.Title | safeJS }}",
+      {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
+      {{ with .Site.Language.Lang }}"inLanguage": "{{ . }}",{{ end }}
+      "url": {{ site.Home.Permalink | safeURL }},
+      {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.Author.name | safeJS }}",
+        "url": "https://github.com/badpaybad"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "@id": "{{ site.Home.Permalink }}#profile",
+      "name": "{{ .Site.Params.Author.name | safeJS }}'s Profile",
+      "url": {{ site.Home.Permalink | safeURL }},
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "{{ site.Home.Permalink }}#person",
+        "name": "{{ .Site.Params.Author.name | safeJS }}",
+        "alternateName": "badpaybad",
+        "jobTitle": "Senior Software Architect & AI Agentic Specialist",
+        "description": "{{ .Site.Params.Author.bio | safeJS }}",
+        "image": "{{ .Site.Params.Author.image | safeJS }}",
+        "url": {{ site.Home.Permalink | safeURL }},
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hanoi",
+          "addressCountry": "Vietnam"
+        },
+        "sameAs": [
+          "https://github.com/badpaybad",
+          "https://twitter.com/badpaybad",
+          "https://facebook.com/badpaybad",
+          "https://t.me/badpaybad",
+          "https://www.paypal.com/paypalme/dunp211284"
+        ],
+        "knowsAbout": [
+          "Software Foundation Infrastructure",
+          "AI Agentic Workforce",
+          "Local LLMs (llama.cpp, Vistral, Ollama)",
+          "C# (.NET Core)",
+          "Dart / Flutter FFI",
+          "C/C++",
+          "Serverless & Microservices",
+          "Token Optimization & Skill-based AI Harness",
+          "High-performance APIs (REST, SSE, WebSockets)"
+        ]
+      }
     }
-  }
+  ]
   </script>
 {{ else }}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}

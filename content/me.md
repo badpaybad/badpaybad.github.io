@@ -1,71 +1,56 @@
 ---
-title: "Me?"
-description: "Nguyễn Phan Du's personal page"
+title: "Me? | Nguyễn Phan Du (badpaybad)"
+description: "Về Nguyễn Phan Du (@badpaybad) - Senior Software Architect, Foundation Infra Engineer & AI Agentic Workforce Pioneer."
 layout: "page"
+draft: false
 ---
 
-## Nguyễn Phan Du source code
+# Nguyễn Phan Du (@badpaybad)
 
-The one with coding hobbies.
+> **"Coding hobbies! IT innovation!"**
 
-### C# - C Sharp
+Tôi là kỹ sư kiến trúc phần mềm với hơn một thập kỷ đam mê và cống hiến cho mã nguồn. Hành trình kỹ thuật của tôi đi qua từng giai đoạn tiến hóa của công nghệ máy tính:
 
-Should look careful your line code, that why I like C# (See sharp)
+$$\text{Punched Cards} \longrightarrow \text{Machine Code} \longrightarrow \text{Low-level / Assembly} \longrightarrow \text{High-level Code (C#, C++, Dart)} \longrightarrow \text{LLM Vibe & AI Agentic Workforce}$$
 
-PC A.I Agentic: [https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
+---
 
-Ngôn ngữ lập trình và tiến hóa: punched card -> machine code -> Low level language code, Assembly code -> High level language code -> Human lager language model vibe code
+## 🏗️ Năng lực Kỹ thuật & Giá trị Đem lại cho Đối tác
 
-### A.I Agentic workforce 
+### 1. Foundation Infrastructure & High-Performance Architecture
+- **Kiến trúc phân tán quy mô lớn**: Thiết kế hệ thống theo chuẩn **CQRS, Domain-Driven Design (DDD), Event Sourcing** và **Microservices** trên nền tảng .NET Core, Dart, Node.js và Python.
+- **Tối ưu tầng sâu (Low-level Optimization)**: Biên dịch và tích hợp trực tiếp mã C/C++ Native (`dlib`, `OpenCV`, `libuvc`) qua **Dart FFI** và **CLR Interop** để đạt hiệu năng xử lý đồ họa, video streaming và tính toán tối đa mà không bị thắt cổ chai bởi cầu nối trung gian.
+- **Hạ tầng truyền thông thời gian thực**: Thiết kế các hệ thống truyền dữ liệu thời gian thực độ trễ thấp sử dụng **Server-Sent Events (SSE), WebSockets** và **WebRTC**.
 
-^^ xài A.I nhiều, quá là nghiện, các công ty làm phần mềm nhờ A.I sẽ đột phá về thời gian delivery và chất lượng code (A.I code chất lượng tốt hơn con người, ít thời gian hơn). Còn chất lượng sản phẩm là vấn đề khác . Giờ đang mua token giá rẻ được. Tới năm sau mọi thứ sẽ thắt chặt => giá thành sẽ không hề rẻ , sẽ tương đương lương của 1 nhân viên trên tháng , chỉ là A.I nó có làm 24/24 được cần harness egninee phải đủ tốt và khung skill base hiện tại sẽ quyết định số tiền token phải trả cho A.I . Về A.I workforce thì không mất phí quản lý con người, du lịch bhyt bhxh thưởng thiếc hay delay or ốm đau ....
+### 2. Phát triển Sản phẩm Toàn diện (Zero to One Engineering)
+- Đảm nhận vai trò **Technical Lead / Software Architect** đưa ý tưởng từ bản thiết kế sơ khai trở thành sản phẩm hoàn thiện, sẵn sàng mở rộng trên Production.
+- Tăng tốc quy trình phát triển sản phẩm gấp nhiều lần bằng cách tích hợp sâu các công cụ **AI Agentic** vào quy trình phân tích, lập trình và kiểm thử.
 
+### 3. Tiên phong Giải pháp AI Agentic Workforce & Local LLM
+- **PC AI Agentic Workforce**: Xây dựng mô hình lực lượng lao động số (AI Workforce) tự động hóa vận hành 24/7 trực tiếp trên PC cá nhân, tương tác qua Telegram/Webhook riêng tư mà không tốn chi phí thuê máy chủ cloud.
+- **Tối ưu chi phí Token bằng Khung Kỹ năng (Skill Framework)**: Biến AI IDE thành siêu lập trình viên full-stack có kỷ luật cao thông qua các bộ rules và skill theo từng dự án cụ thể, kiểm soát chặt chẽ ngân sách token.
+- **On-device & CPU-based LLM**: Triển khai mô hình ngôn ngữ lớn (Vistral, LLaMA) qua `llama.cpp` chạy mượt mà ngay trên CPU máy tính, phục vụ trích xuất thực thể và bảo mật tuyệt đối dữ liệu nhạy cảm.
 
-A.I native thì còn xa xa
+---
 
+## ⚡ 170+ Open-Source Repositories & Dự án Tiêu biểu
 
-A.I first sẽ cần người vận hành ( người ngồi dùng máy tính ) ra đề bài + kiểm soát chất lượng sản phẩm (BA QA QC ) 
+- 🤖 [**a.i-assistant-chatbot-telegram-serverles**](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles): Trợ lý AI Agentic vận hành trên PC cá nhân qua Telegram, không cần server.
+- 🧠 [**Ner_Llm_Gpt**](https://github.com/badpaybad/Ner_Llm_Gpt): Mô hình LLM Vistral qua llama.cpp tối ưu hoàn toàn trên CPU phục vụ nhận dạng thực thể.
+- ⚡ [**flutter-dart-ffi-dlib-opencv**](https://github.com/badpaybad/flutter-dart-ffi-dlib-opencv): Native C/C++ shared lib tích hợp qua Dart FFI trên Android/Flutter.
+- 📺 [**rplayer**](https://github.com/badpaybad/rplayer): Trình phát RTSP streaming độ trễ thấp bằng Dart FFI cho Flutter.
+- 🏛️ [**cqrs-dot-net-core**](https://github.com/badpaybad/cqrs-dot-net-core) & [**opendotnet-ecommerce-platform**](https://github.com/badpaybad/opendotnet-ecommerce-platform): Khung kiến trúc CQRS/DDD cấp doanh nghiệp trên .NET Core.
+- 🚀 [**dart-run-as-httpserver-api-sse-ws**](https://github.com/badpaybad/dart-run-as-httpserver-api-sse-ws): Backend server Dart hiệu năng cao hỗ trợ REST, SSE và WebSockets.
+- 👁️ [**InsightFace_TF**](https://github.com/badpaybad/InsightFace_TF) & [**pixel_link**](https://github.com/badpaybad/pixel_link): Nhận diện khuôn mặt 2D/3D và phân đoạn văn bản OCR.
+- 🤖 [**ros_navigation_command_app**](https://github.com/badpaybad/ros_navigation_command_app) & [**rplidaropencv**](https://github.com/badpaybad/rplidaropencv): Điều khiển robot tự hành bằng giọng nói và xử lý dữ liệu cảm biến Lidar RPLIDAR A1.
 
+---
 
-Skills đi theo project để giảm thiểu tiền token rules constrains ...
+## 📬 Kết nối & Hợp tác
 
-Không cần 1 skill đa dụng sẽ không giải quyết gì , bản thân A.I IDE nó là super full stack dev có kỹ năng BA, ARCH, DEV ... rất mạnh ... nó là giáo sư biết tuốt, không cần dạy nó thêm cái gì ... cần kích hoạt đc nó = skills 
-
-
-PC A.I Agentic workforce
-
-https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for:
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/badpaybad/dunp.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
+- 🐙 **GitHub**: [@badpaybad](https://github.com/badpaybad)
+- 🐦 **X (Twitter)**: [@badpaybad](https://twitter.com/badpaybad)
+- 💬 **Telegram**: [@badpaybad](https://t.me/badpaybad)
+- 📱 **Skype**: `badpaybad`
+- 🌐 **Facebook**: [facebook.com/badpaybad](https://facebook.com/badpaybad)
+- ☕ **Sponsor**: [PayPal.me/dunp211284](https://www.paypal.com/paypalme/dunp211284)
