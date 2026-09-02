@@ -26,3 +26,5 @@ Dựa vào gạch đầu dòng làm nổi bật năng lực xây dựng sản ph
 **cập nhật 3** cho phép chọn song ngữ tiếng: Việt, English, mặc định chọn tiếng Việt 
     content/_index.md cần có thêm bản English
     những bài viết khác chưa có thì nội dung lấy mặc định tiếng Việt
+
+**cập nhật 4** các nội dung cần căn trái để dễ đọc, dạng eyes movement hobbby 

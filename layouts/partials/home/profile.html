@@ -1,0 +1,50 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="flex flex-col items-start justify-start text-left w-full">
+  <header class="relative px-0 py-2 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mb-6 w-full pb-4 border-b border-neutral-200 dark:border-neutral-700">
+    {{ with .Site.Params.Author.image }}
+      {{ $authorImage := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $authorImage = resources.GetRemote . }}
+      {{ else }}
+        {{ $authorImage = resources.Get . }}
+      {{ end }}
+      {{ if $authorImage }}
+        {{ $final := $authorImage }}
+        {{ $squareImage := $authorImage }}
+        {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+          {{ $final = $authorImage.Fill (print "288x288 Center q" ( $.Site.Params.Author.imagequality | default "96" )) }}
+          {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+          {{ $squareImage = $authorImage.Crop (printf "%dx%d Center" $shortSide $shortSide ) }}
+        {{ end }}
+        <img
+          class="h-28 w-28 sm:h-32 sm:w-32 rounded-full border-2 border-primary-500 shadow-md shrink-0 mb-0"
+          width="128"
+          height="128"
+          alt="{{ $.Site.Params.Author.name | default `Author` }}"
+          loading="eager"
+          fetchpriority="high"
+          src="{{ $final.RelPermalink }}"
+          data-zoom-src="{{ $squareImage.RelPermalink }}">
+      {{ end }}
+    {{ end }}
+    <div class="flex flex-col items-start text-left">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral">
+        {{ .Site.Params.Author.name | default .Site.Title }}
+      </h1>
+      {{ with .Site.Params.Author.headline }}
+        <h2 class="text-lg sm:text-xl text-neutral-600 dark:text-neutral-300 font-medium mt-1 text-left">
+          {{ . | markdownify }}
+        </h2>
+      {{ end }}
+      <div class="mt-2 text-2xl flex justify-start text-left">
+        {{ partialCached "author-links.html" . }}
+      </div>
+    </div>
+  </header>
+  <section class="prose dark:prose-invert max-w-none w-full text-left text-start">
+    {{ .Content }}
+  </section>
+</article>
+<section class="w-full text-left text-start mt-8">
+  {{ partial "recent-articles/main.html" . }}
+</section>
