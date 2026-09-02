@@ -1,0 +1,16 @@
+{{ $recentArticles := 5 }}
+{{ $recentArticles = .Site.Params.homepage.showRecentItems | default 10 }}
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ if and (eq (len $pages) 0) (ne .Site.Language.Lang .Site.DefaultContentLanguage) }}
+  {{ range .Sites }}
+    {{ if eq .Language.Lang site.DefaultContentLanguage }}
+      {{ $pages = where .RegularPages "Type" "in" site.Params.mainSections }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ range first $recentArticles (.Paginate $pages).Pages }}
+    {{ partial "article-link/card.html" . }}
+  {{ end }}
+</section>
