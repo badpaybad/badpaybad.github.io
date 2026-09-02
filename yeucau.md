@@ -20,3 +20,5 @@ Me? # lấy nội dung từ file hiện tại là index.html
 - hỗ trợ googlge search, các A.I search result, các engine tìm kiếm ...
 - profile cần để dạng draft: true để tôi xem và duyệt trước khi commit push public lên git
 Dựa vào gạch đầu dòng làm nổi bật năng lực xây dựng sản phẩm và hệ thống cụ thể cho các đối tác khi cần, không nhất thiết theo gạch đầu dòng để làm đề mục hãy suy nghĩ và làm profile thật sự cho người cần dùng để biết đến tôi, năng lực và thấy tin tưởng làm việc với tôi 
+
+**cập nhật 2** content/me.md là tôi tự viết không được thay đổi, cần giữ version trước đó
