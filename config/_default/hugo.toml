@@ -16,9 +16,11 @@ theme = "blowfish"
   name = "Nguyễn Phan Du"
   image = "https://avatars.githubusercontent.com/u/6204507?v=4"
   headline = "Software Architect | AI Agentic Specialist | Foundation & Infra Engineer"
-  bio = "Coding hobbies & IT innovation. Senior Software Architect chuyên sâu về Foundation Infra, C#, C/C++ FFI, Dart/Flutter, và giải pháp AI Agentic Workforce trên PC/Local."
+  bio = "Founder ToT Tech Ecosystem (fossagentic.men) — Senior Software Architect chuyên sâu về Foundation Infra (.NET 10, Angular, Flutter), Kho UHF RFID (tot-hub), AI Sales Agent, ESP32-OS, C/C++ FFI và PC AI Agentic Workforce."
   links = [
+    { globe = "https://fossagentic.men/" },
     { github = "https://github.com/badpaybad" },
+    { email = "badpaybad@gmail.com" },
     { x-twitter = "https://twitter.com/badpaybad" },
     { facebook = "https://facebook.com/badpaybad" },
     { telegram = "https://t.me/badpaybad" },
@@ -60,32 +62,45 @@ theme = "blowfish"
     [languages.vi.params]
       displayName = "Tiếng Việt"
       isoCode = "vi"
-      description = "Nguyễn Phan Du (badpaybad) - Senior Software Architect, Foundation Infra Engineer & Chuyên gia tư vấn giải pháp AI Agentic Workforce, Local LLM."
+      description = "Nguyễn Phan Du (badpaybad) - Founder ToT Tech Ecosystem (fossagentic.men), Senior Software Architect & AI Agentic Specialist: Kho UHF RFID (tot-hub), AI Sales Agent, ESP32-OS, Foundation Boilerplate (.NET 10 / Angular / Flutter) & CNC Automation."
       keywords = [
         "Nguyễn Phan Du",
         "badpaybad",
+        "fossagentic.men",
+        "ToT Tech Ecosystem",
+        "Kho RFID UHF",
+        "tot-hub",
+        "AI Sales Agent",
+        "ESP32-OS",
         "AI Agentic",
         "PC AI Agentic Workforce",
         "Software Foundation Infra",
         "Software Architect",
-        "C#",
+        "C# .NET 10",
+        "Angular Standalone",
         "Dart Flutter FFI",
-        "C++",
-        "Local LLM",
-        "Serverless"
+        "CNC Touch Machine",
+        "Local LLM"
       ]
       [languages.vi.params.author]
         name = "Nguyễn Phan Du"
         image = "https://avatars.githubusercontent.com/u/6204507?v=4"
         headline = "Software Architect | AI Agentic Specialist | Foundation & Infra Engineer"
-        bio = "Coding hobbies & IT innovation. Senior Software Architect chuyên sâu về Foundation Infra, C#, C/C++ FFI, Dart/Flutter, và giải pháp AI Agentic Workforce trên PC/Local."
+        bio = "Founder ToT Tech Ecosystem (fossagentic.men) — Senior Software Architect chuyên sâu về Foundation Infra (.NET 10, Angular, Flutter), Kho UHF RFID (tot-hub), AI Sales Agent, ESP32-OS, C/C++ FFI và PC AI Agentic Workforce."
         links = [
+          { globe = "https://fossagentic.men/" },
           { github = "https://github.com/badpaybad" },
+          { email = "badpaybad@gmail.com" },
           { x-twitter = "https://twitter.com/badpaybad" },
           { facebook = "https://facebook.com/badpaybad" },
           { telegram = "https://t.me/badpaybad" },
           { paypal = "https://www.paypal.com/paypalme/dunp211284" }
         ]
+    [[languages.vi.menu.main]]
+      name = "Sản phẩm"
+      url = "https://fossagentic.men/"
+      pre = "globe"
+      weight = 5
     [[languages.vi.menu.main]]
       name = "Blogs"
       pageRef = "posts"
@@ -112,32 +127,45 @@ theme = "blowfish"
     [languages.en.params]
       displayName = "English"
       isoCode = "en"
-      description = "Nguyen Phan Du (@badpaybad) - Senior Software Architect, Foundation Infra Engineer & AI Agentic Workforce Specialist."
+      description = "Nguyen Phan Du (@badpaybad) - Founder of ToT Tech Ecosystem (fossagentic.men), Senior Software Architect & AI Agentic Specialist: Location-Agnostic UHF RFID (tot-hub), AI Sales Agent, ESP32-OS, Enterprise Boilerplate (.NET 10 / Angular / Flutter) & CNC Automation."
       keywords = [
         "Nguyen Phan Du",
         "badpaybad",
+        "fossagentic.men",
+        "ToT Tech Ecosystem",
+        "UHF RFID Warehouse",
+        "tot-hub",
+        "AI Sales Agent",
+        "ESP32-OS",
         "AI Agentic",
         "PC AI Agentic Workforce",
         "Software Foundation Infra",
         "Software Architect",
-        "C#",
+        "C# .NET 10",
+        "Angular Standalone",
         "Dart Flutter FFI",
-        "C++",
-        "Local LLM",
-        "Serverless"
+        "CNC Touch Machine",
+        "Local LLM"
       ]
       [languages.en.params.author]
         name = "Nguyen Phan Du"
         image = "https://avatars.githubusercontent.com/u/6204507?v=4"
         headline = "Software Architect | AI Agentic Specialist | Foundation & Infra Engineer"
-        bio = "Coding hobbies & IT innovation. Senior Software Architect specializing in Foundation Infra, C#, C/C++ FFI, Dart/Flutter, and PC-based AI Agentic Workforce solutions."
+        bio = "Founder of ToT Tech Ecosystem (fossagentic.men) — Senior Software Architect specializing in Foundation Infra (.NET 10, Angular, Flutter), Warehouse UHF RFID (tot-hub), AI Sales Agent, ESP32-OS, C/C++ FFI, and PC-based AI Agentic Workforce."
         links = [
+          { globe = "https://fossagentic.men/" },
           { github = "https://github.com/badpaybad" },
+          { email = "badpaybad@gmail.com" },
           { x-twitter = "https://twitter.com/badpaybad" },
           { facebook = "https://facebook.com/badpaybad" },
           { telegram = "https://t.me/badpaybad" },
           { paypal = "https://www.paypal.com/paypalme/dunp211284" }
         ]
+    [[languages.en.menu.main]]
+      name = "Products"
+      url = "https://fossagentic.men/"
+      pre = "globe"
+      weight = 5
     [[languages.en.menu.main]]
       name = "Blogs"
       pageRef = "posts"

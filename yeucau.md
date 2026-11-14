@@ -28,3 +28,5 @@ Dựa vào gạch đầu dòng làm nổi bật năng lực xây dựng sản ph
     những bài viết khác chưa có thì nội dung lấy mặc định tiếng Việt
 
 **cập nhật 4** các nội dung cần căn trái để dễ đọc, dạng eyes movement hobbby 
+
+Xem thêm các project và sản phẩm ở /work/a.i-foundation-boilerplate/landingpage và cập nhật các sản phẩm lên trên cùng làm usercase và cần link tới https://fossagentic.men/  

@@ -1,6 +1,18 @@
 # Hồ sơ năng lực kỹ thuật: Nguyễn Phan Du (@badpaybad)
 
-Tài liệu này tổng hợp phân tích từ toàn bộ **170+ repositories** trên GitHub [@badpaybad](https://github.com/badpaybad) (Arctic Code Vault Contributor) nhằm xây dựng bản Profile định vị năng lực chuyên sâu, tạo dựng niềm tin tuyệt đối cho đối tác, khách hàng và cộng đồng kỹ thuật.
+Tài liệu này tổng hợp phân tích từ toàn bộ **170+ repositories** trên GitHub [@badpaybad](https://github.com/badpaybad) (Arctic Code Vault Contributor) cùng hệ sinh thái sản phẩm thương mại **[ToT Tech Ecosystem (`fossagentic.men`)](https://fossagentic.men/)** nhằm xây dựng bản Profile định vị năng lực chuyên sâu, tạo dựng niềm tin tuyệt đối cho đối tác, khách hàng và cộng đồng kỹ thuật.
+
+---
+
+## 0. Sản phẩm & Use Cases Thực chiến Đưa Lên Trên Cùng ([fossagentic.men](https://fossagentic.men/))
+
+Dựa trên dự án thực tế tại `/work/a.i-foundation-boilerplate/landingpage`, phần đầu trang chủ (`content/_index.md` & `content/_index.en.md`) đặt trực tiếp **5 nhóm sản phẩm & Use Cases thương mại** lên trên cùng (trước phần Dịch vụ & Danh sách Repo) để đối tác thấy ngay năng lực triển khai từ phần cứng đến phần mềm:
+
+1. **Kho RFID Tìm Đồ Không Quan Tâm Vị Trí (`https://fossagentic.men/#warehouse-rfid`)**: Súng UHF **Chainway SR160** (Impinj Gen2X, 865–928 MHz, Dual-Mode RFID + Barcode, BLE 5.0 / HID / USB-C OTG) + thẻ Anti-Metal + App Mobile **Flutter `tot-hub`** (Menu bán nguyệt 1 tay, SSO OIDC, đọc giọng nói Tiếng Việt miễn phí `flutter_tts` `vi-VN`, khử lỗi Telex Hex) + đồng bộ **Sapo POS** qua `.NET Core.Infra.WarehouseRfid` (`tracking_id`, Atomic Transfer). Video 4K demo: `https://fossagentic.men/videos/products/5.1.warehouse-rfid.webm`.
+2. **A.I Agent Agentic Bán Hàng Đa Kênh (`https://fossagentic.men/#ai-sale-agent`)**: **Sales Cockpit 3 cột** (`https://app.fossagentic.men/workspaces/sale-agent/cockpit`, Webhook Facebook + Redis CQRS, 6 tab, Dual-Mode `AI_AUTO` <5s & `CO_PILOT`), PostgreSQL `pgvector` GraphRAG + Given-When-Then CoT, `Session Focus Product`, `Obsolete Guarding`, đồng bộ đơn **Sapo Multi-Store (`#DUNP`)**, và động cơ kéo Fanpage **Level 1 → Level 10** (~80% AI / ~20% nhân viên, Daily Triad `08:00 AM`, Lookalike 1%–2% từ Sapo giảm 30%–60% CPA, tự học `02:00 AM`).
+3. **Hệ Điều Hành Nhúng `ESP32-OS` & 6 Bộ Embedded Kits Độc Lập (`https://fossagentic.men/#embedded-kits`)**: Trên nền `ESP32-S3 N16R8`: (1) Nhân `ESP32-OS` FreeRTOS EventBus + Captive Portal `esp32os_dunp` + ECDSA P-256 + Firestore, (2) Module màn hình cảm ứng `ILI9341` 2.8" `XPT2046` dựng chữ Tiếng Việt UTF-8 trực tiếp, (3) Dual-Mic I2S `INMP441` 16kHz + TFLite Wake-Word + VAD 60s, (4) Audio DAC `MAX98357A` 24kHz + 256KB OPI PSRAM RingBuffer, (5) Đọc thẻ RFID & **CCCD gắn chip (`PN532` ICAO Doc 9303 BAC/3DES)** cho ki-ốt eKYC, (6) **Chatbot A.I `ESP32 Mic Phone`** đàm thoại Gemini 3.1 Flash Live (Aoede `vi-VN`), Smart Barge-In & 8 Function Tools.
+4. **Foundation & Enterprise Boilerplate (`https://fossagentic.men/#services`)**: Bộ khung Clean Architecture / Modular Monolith (`.NET 10` `Core.Infra`, `Angular Standalone + Signals`, `Flutter Monorepo tot-hub`, Redis Pub/Sub, Firebase, Nghị định 13/2023/NĐ-CP) rút ngắn 80% thời gian khởi tạo, phản hồi `< 100ms`, bàn giao 100% mã nguồn (`https://github.com/badpaybad/a.i-foundation-boilerplate`).
+5. **Hệ Máy CNC Tự Động Hóa & AI Computer Vision (`https://fossagentic.men/#products`)**: Máy **CNC Touch Machine** (4 trục GRBL 0.05mm, giảm chấn lò xo bảo vệ kính, test 1M+ lượt bấm, auto call, QA/QC), **CNC Wooden & Plotter** (TB6600 4.0A, GRBL-HAL 32-bit, Single-Line Vector) và **AI Computer Vision Anti-Spoofing** (60FPS, 99.8% liveness) — trình diễn qua 10 video thực tế tại `https://fossagentic.men/#products` (không bao gồm `1.robot.mp4` theo đúng spec tại `landingpage/whattodo.md`).
 
 ---
 

@@ -20,41 +20,117 @@
       "@context": "https://schema.org",
       "@type": "ProfilePage",
       "@id": "{{ site.Home.Permalink }}#profile",
-      "name": "{{ .Site.Params.Author.name | safeJS }}'s Profile",
+      "name": "{{ .Site.Params.Author.name | safeJS }}'s Profile & Use Cases",
       "url": {{ site.Home.Permalink | safeURL }},
       "mainEntity": {
         "@type": "Person",
         "@id": "{{ site.Home.Permalink }}#person",
         "name": "{{ .Site.Params.Author.name | safeJS }}",
         "alternateName": "badpaybad",
-        "jobTitle": "Senior Software Architect & AI Agentic Specialist",
+        "jobTitle": "Founder of ToT Tech Ecosystem | Senior Software Architect & AI Agentic Specialist",
         "description": "{{ .Site.Params.Author.bio | safeJS }}",
         "image": "{{ .Site.Params.Author.image | safeJS }}",
         "url": {{ site.Home.Permalink | safeURL }},
+        "email": "badpaybad@gmail.com",
+        "telephone": "+84-778-384-849",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ToT Tech Ecosystem",
+          "url": "https://fossagentic.men/"
+        },
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Hanoi",
           "addressCountry": "Vietnam"
         },
         "sameAs": [
+          "https://fossagentic.men/",
+          "https://app.fossagentic.men/workspaces/sale-agent/cockpit",
           "https://github.com/badpaybad",
+          "https://github.com/badpaybad/a.i-foundation-boilerplate",
           "https://twitter.com/badpaybad",
           "https://facebook.com/badpaybad",
           "https://t.me/badpaybad",
           "https://www.paypal.com/paypalme/dunp211284"
         ],
         "knowsAbout": [
+          "Location-Agnostic UHF RFID Warehouse Systems (Chainway SR160, Flutter tot-hub, Sapo Sync)",
+          "AI Sales Agent & GraphRAG (pgvector, Redis CQRS, Fanpage Level 10 Automation)",
+          "ESP32-OS Embedded Operating System & ICAO 9303 CCCD NFC (ESP32-S3 N16R8)",
+          "Enterprise Foundation Boilerplate (.NET 10, Angular Standalone Signals, Flutter)",
+          "CNC Touch Machine & CNC Wooden / Plotter Automation (GRBL-HAL, TB6600)",
           "Software Foundation Infrastructure",
           "AI Agentic Workforce",
           "Local LLMs (llama.cpp, Vistral, Ollama)",
-          "C# (.NET Core)",
-          "Dart / Flutter FFI",
-          "C/C++",
+          "Dart / Flutter FFI & Native C/C++",
           "Serverless & Microservices",
           "Token Optimization & Skill-based AI Harness",
           "High-performance APIs (REST, SSE, WebSockets)"
         ]
       }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "@id": "{{ site.Home.Permalink }}#use-cases",
+      "name": "ToT Tech Ecosystem Production Products & Real-World Use Cases",
+      "url": "https://fossagentic.men/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Location-Agnostic Warehouse UHF RFID Item Finder (Chainway SR160 + Flutter tot-hub)",
+            "url": "https://fossagentic.men/#warehouse-rfid",
+            "description": "Chaotic-storage UHF RFID (865-928MHz) warehouse search scanning through cartons with free offline Vietnamese Voice TTS (vi-VN) and Sapo POS barcode sync."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "A.I Agent Agentic Omnichannel Sales (Sales Cockpit & Fanpage Level 10)",
+            "applicationCategory": "BusinessApplication",
+            "url": "https://fossagentic.men/#ai-sale-agent",
+            "sameAs": "https://app.fossagentic.men/workspaces/sale-agent/cockpit",
+            "description": "3-column real-time Sales Cockpit with AI_AUTO/CO_PILOT modes, pgvector GraphRAG, Obsolete Guarding, Sapo multi-store order sync (#DUNP), and automated Fanpage Level 1-10 growth."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "ESP32-OS & 6 Standalone Embedded Kits (TFT Touch UTF-8, Dual I2S Audio, CCCD NFC, AI Mic Phone)",
+            "url": "https://fossagentic.men/#embedded-kits",
+            "description": "Multi-threaded FreeRTOS EventBus OS on ESP32-S3 N16R8 with standalone touch display, dual INMP441 mics, 24kHz MAX98357A DAC, PN532 ICAO 9303 CCCD NFC reader, and Gemini Live AI Mic Phone."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Foundation & Enterprise Boilerplate (.NET 10, Angular Standalone, Flutter Monorepo)",
+            "applicationCategory": "DeveloperApplication",
+            "url": "https://fossagentic.men/#services",
+            "sameAs": "https://github.com/badpaybad/a.i-foundation-boilerplate",
+            "description": "Clean Architecture & Modular Monolith enterprise boilerplate with CQRS, Redis Pub/Sub, Firebase, OIDC SSO, and Vietnam Decree 13/2023/ND-CP compliance reducing setup time by 80%."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Product",
+            "name": "CNC Touch Machine, CNC Wooden & Plotter, and AI Vision Anti-Spoofing",
+            "url": "https://fossagentic.men/#products",
+            "description": "4-axis GRBL capacitive touch automation CNC (0.05mm), TB6600/GRBL-HAL woodworking & single-line vector plotter CNC, and 60FPS facial liveness anti-spoofing."
+          }
+        }
+      ]
     }
   ]
   </script>
