@@ -126,7 +126,6 @@ A lightweight office PC or Mini-PC runs the worker cleanly on-site (just like an
 
 Explore the codebases, technical notes, and live systems built by **Nguyễn Phan Du (`@badpaybad`)**:
 
-- **Reference Concept Link**: [Gemini Share — AI PC Agentic Worker](https://share.gemini.google/cBFWbavUU1i3)
 - **Open-Source Serverless Telegram PC AI Worker**: [`badpaybad/a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
 - **Commercial Ecosystem & Facebook Messenger AI Sale Agent**: [`fossagentic.men`](https://fossagentic.men/) · [AI Sale Agent Overview](https://fossagentic.men/#ai-sale-agent)
 - **Spec-Driven Enterprise Foundation Boilerplate**: [`badpaybad/a.i-foundation-boilerplate`](https://github.com/badpaybad/a.i-foundation-boilerplate)

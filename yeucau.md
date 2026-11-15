@@ -34,6 +34,5 @@ Xem thêm các project và sản phẩm ở /work/a.i-foundation-boilerplate/lan
 Hoàn thiện trang giới thiệu a.i pc agentic work forces ở https://badpaybad.github.io/pc-ai-agentic/
     ý tưởng 
         forward developer: thay vì dùng s.a.a.s chỉ đạt được 80% 90% thậm chí chỉ 60% các nhu cầu hàng ngày về nghiệp vụ của bạn của cty bạn, giờ đây A.I cùng với 1 nhân sự làm trong phần mềm có thể ngồi cạnh bạn, hiểu nghiệp vụ của bạn và làm match 99% 100% công việc chỉ trong thời gian ngắn (bản thân tôi triển thực sự là dưới 1 tuần ). Dĩ nhiên việc hoàn thiện dần theo thời gian là quan trọng, nếu bạn  được hướng dẫn để làm việc tiếp với A.I sẽ tạo ra harness worker cho công việc của bạn -> A.I PC Agentic work forces 
-        https://share.gemini.google/cBFWbavUU1i3
     cần triển khai dễ hiểu, dễ tiếp cận
         PC có thể thành các worker để bạn có thể giao việc, giao tiếp qua telegram, fb messenger ... 

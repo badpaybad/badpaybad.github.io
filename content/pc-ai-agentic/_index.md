@@ -126,7 +126,6 @@ PC đóng vai trò như nơi làm việc của nhân sự số — máy có th�
 
 Xem mã nguồn, các bài phân tích và sản phẩm thương mại đang vận hành của **Nguyễn Phan Du (`@badpaybad`)**:
 
-- **Ý tưởng chia sẻ tham khảo**: [Gemini Share — AI PC Agentic Worker](https://share.gemini.google/cBFWbavUU1i3)
 - **Mã nguồn mở PC AI Worker qua Telegram (không cần server)**: [`badpaybad/a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
 - **Hệ sinh thái sản phẩm & AI Sale Agent Facebook Messenger**: [`fossagentic.men`](https://fossagentic.men/) · [AI Sale Agent Đa Kênh](https://fossagentic.men/#ai-sale-agent)
 - **Bộ khung Foundation & Spec-driven**: [`badpaybad/a.i-foundation-boilerplate`](https://github.com/badpaybad/a.i-foundation-boilerplate)
