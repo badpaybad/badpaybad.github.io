@@ -77,3 +77,15 @@ Profile không chỉ liệt kê danh sách mà tập trung giải quyết chính
 - **Semantic Content Structure**: Cung cấp đầy đủ ngữ cảnh để các Search Engine và LLM AI bot trích xuất chính xác hồ sơ năng lực của Nguyễn Phan Du khi người dùng tìm kiếm chuyên gia hệ thống, FFI, Dart/Flutter hay AI Agentic.
 - **Schema.org Structured Data**: Cấu hình `Person`, `ProfilePage`, `WebSite` với `knowsAbout`, `sameAs`, `jobTitle`.
 - **Chế độ Draft**: Cài đặt `draft: true` để bạn tự do kiểm tra và tinh chỉnh câu chữ trên máy cục bộ trước khi xuất bản.
+
+---
+
+## 5. Trang Giới Thiệu A.I PC Agentic Workforce (`/pc-ai-agentic/` & `/en/pc-ai-agentic/`)
+
+Bổ sung theo `yeucau.md` (mục hoàn thiện `/pc-ai-agentic/`):
+
+- **Layout riêng không hiển thị `"no articles"`**: Tạo `layouts/pc-ai-agentic/list.html` căn trái F-pattern (`text-left text-start`, `max-w-4xl`), hiển thị sơ đồ `/img/PC-A.I-Agentic-workforce.png` (`width="1016"`, `height="706"`, `fetchpriority="high"`), hỗ trợ ToC dính bên phải và ẩn danh sách con khi các bài nhánh (`intro-to-ai.md`, `hardware-setup.md`) còn ở trạng thái `draft = true`.
+- **Nội dung song ngữ Việt / Anh (`content/pc-ai-agentic/_index.md` & `_index.en.md`)**:
+  - **SaaS (60%–90%) vs. Forward Developer + AI (99%–100% < 1 tuần)**: Nhấn mạnh kinh nghiệm triển khai thực chiến dưới 1 tuần khi ngồi sát nghiệp vụ cùng khách hàng.
+  - **Tiến hóa thành Harness Worker → A.I PC Agentic Workforce**: Giải thích dễ hiểu cách hướng dẫn người dùng tiếp tục trao đổi và lặp quy trình cùng AI qua thời gian (kèm sơ đồ `/img/ai-agentic-spec-driven.png`).
+  - **Dễ hiểu, dễ tiếp cận cho người dùng phổ thông**: Đưa ví dụ giao việc 3 bước trực tiếp qua **Telegram**, **Facebook Messenger** ngay trên PC cá nhân lên trước, tách phần kiến trúc kỹ thuật (`Cloudflare Tunnel`, `Ollama`/`llama.cpp`/`Gemma 4`, `Skills/`, `.md` RAG) xuống mục riêng kèm FAQ tối ưu SEO/GEO.
