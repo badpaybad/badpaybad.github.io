@@ -19,21 +19,14 @@
             </a>
           {{ end }}
         {{ else }}
-          {{ range site.Languages }}
-            {{ $targetLang := . }}
-            {{ $targetUrl := "" }}
-            {{ if eq $targetLang.Lang site.Language.Lang }}
+          {{ range site.Home.AllTranslations }}
+            {{ $targetUrl := .RelPermalink }}
+            {{ if eq .Language.Lang site.Language.Lang }}
               {{ $targetUrl = $.RelPermalink }}
-            {{ else }}
-              {{ if eq $targetLang.Lang "vi" }}
-                {{ $targetUrl = "/" }}
-              {{ else }}
-                {{ $targetUrl = (printf "/%s/" $targetLang.Lang) }}
-              {{ end }}
             {{ end }}
-            <a href="{{ $targetUrl | relURL }}" class="flex items-center bf-icon-color-hover px-3 py-1">
+            <a href="{{ $targetUrl }}" class="flex items-center bf-icon-color-hover px-3 py-1">
               <span class="text-sm font-sm">
-                {{ .Params.displayName | default .LanguageName | emojify }}
+                {{ .Language.Params.displayName | default .Language.LanguageName | emojify }}
               </span>
             </a>
           {{ end }}

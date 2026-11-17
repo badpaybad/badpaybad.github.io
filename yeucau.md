@@ -36,3 +36,7 @@ Hoàn thiện trang giới thiệu a.i pc agentic work forces ở https://badpay
         forward developer: thay vì dùng s.a.a.s chỉ đạt được 80% 90% thậm chí chỉ 60% các nhu cầu hàng ngày về nghiệp vụ của bạn của cty bạn, giờ đây A.I cùng với 1 nhân sự làm trong phần mềm có thể ngồi cạnh bạn, hiểu nghiệp vụ của bạn và làm match 99% 100% công việc chỉ trong thời gian ngắn (bản thân tôi triển thực sự là dưới 1 tuần ). Dĩ nhiên việc hoàn thiện dần theo thời gian là quan trọng, nếu bạn  được hướng dẫn để làm việc tiếp với A.I sẽ tạo ra harness worker cho công việc của bạn -> A.I PC Agentic work forces 
     cần triển khai dễ hiểu, dễ tiếp cận
         PC có thể thành các worker để bạn có thể giao việc, giao tiếp qua telegram, fb messenger ... 
+
+web đang hỗ trợ tiếng Anh , tiếng Việt cần để lại mặc định khi vào là dùng tiếng Anh 
+
+Các nội dung cần trình bày khoa học có hệ thống, dễ hiểu, mang tính ứng dụng thực chiến, các sản phẩm đã sẵn sàng về mặt hệ thống và sử dụng, từng sản phẩm là giải pháp hữu dụng

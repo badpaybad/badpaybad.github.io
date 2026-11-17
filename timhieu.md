@@ -80,12 +80,23 @@ Profile không chỉ liệt kê danh sách mà tập trung giải quyết chính
 
 ---
 
-## 5. Trang Giới Thiệu A.I PC Agentic Workforce (`/pc-ai-agentic/` & `/en/pc-ai-agentic/`)
+## 5. Trang Giới Thiệu A.I PC Agentic Workforce (`/pc-ai-agentic/` & `/vi/pc-ai-agentic/`)
 
-Bổ sung theo `yeucau.md` (mục hoàn thiện `/pc-ai-agentic/`):
+Bổ sung theo `yeucau.md` (mục hoàn thiện `/pc-ai-agentic/` và chuyển mặc định sang Tiếng Anh):
 
 - **Layout riêng không hiển thị `"no articles"`**: Tạo `layouts/pc-ai-agentic/list.html` căn trái F-pattern (`text-left text-start`, `max-w-4xl`), hiển thị sơ đồ `/img/PC-A.I-Agentic-workforce.png` (`width="1016"`, `height="706"`, `fetchpriority="high"`), hỗ trợ ToC dính bên phải và ẩn danh sách con khi các bài nhánh (`intro-to-ai.md`, `hardware-setup.md`) còn ở trạng thái `draft = true`.
-- **Nội dung song ngữ Việt / Anh (`content/pc-ai-agentic/_index.md` & `_index.en.md`)**:
+- **Nội dung song ngữ Anh (mặc định) / Việt (`_index.md` & `_index.vi.md`)**:
   - **SaaS (60%–90%) vs. Forward Developer + AI (99%–100% < 1 tuần)**: Nhấn mạnh kinh nghiệm triển khai thực chiến dưới 1 tuần khi ngồi sát nghiệp vụ cùng khách hàng.
   - **Tiến hóa thành Harness Worker → A.I PC Agentic Workforce**: Giải thích dễ hiểu cách hướng dẫn người dùng tiếp tục trao đổi và lặp quy trình cùng AI qua thời gian (kèm sơ đồ `/img/ai-agentic-spec-driven.png`).
   - **Dễ hiểu, dễ tiếp cận cho người dùng phổ thông**: Đưa ví dụ giao việc 3 bước trực tiếp qua **Telegram**, **Facebook Messenger** ngay trên PC cá nhân lên trước, tách phần kiến trúc kỹ thuật (`Cloudflare Tunnel`, `Ollama`/`llama.cpp`/`Gemma 4`, `Skills/`, `.md` RAG) xuống mục riêng kèm FAQ tối ưu SEO/GEO.
+
+---
+
+## 6. Ngôn ngữ Mặc định Tiếng Anh (`/`) & Song ngữ Tiếng Việt (`/vi/`)
+
+Cập nhật theo `yeucau.md` dòng cuối:
+
+- **Đổi `defaultContentLanguage = "en"` trong `config/_default/hugo.toml`**: Truy cập trực tiếp `https://badpaybad.github.io/` và `https://badpaybad.github.io/pc-ai-agentic/` mặc định dùng Tiếng Anh (`weight = 1`), bản Tiếng Việt phục vụ tại `/vi/` và `/vi/pc-ai-agentic/` (`weight = 2`).
+- **Tổ chức file nội dung song ngữ**: Chuyển cặp trang chủ thành `content/_index.md` (EN) + `content/_index.vi.md` (VI) và `content/pc-ai-agentic/_index.md` (EN) + `content/pc-ai-agentic/_index.vi.md` (VI), kèm `aliases` chuyển hướng `/en/` → `/` và `/en/pc-ai-agentic/` → `/pc-ai-agentic/`.
+- **Giữ nguyên `content/me.md` & bài viết chưa dịch**: Không chỉnh sửa `content/me.md`; cập nhật `layouts/partials/header/components/translations.html` (dùng `site.Home.AllTranslations`), `layouts/partials/recent-articles/cardview.html` + `main.html` (`site.Sites.Default`) và menu `[languages.vi.menu.main]` trỏ đúng `/posts/`, `/me/`, `/sharing/` để không bị gãy link khi chuyển ngôn ngữ.
+- **Trình bày khoa học, có hệ thống & nhấn mạnh tính sẵn sàng sử dụng** (theo dòng 42 `yeucau.md`): Bổ sung bảng tổng hợp **6 Hệ thống Sản phẩm Sẵn sàng Vận hành** ngay đầu trang chủ (`_index.md` / `_index.vi.md`), chuẩn hóa từng sản phẩm theo 4 phần đồng nhất (*System Readiness / Mức độ sẵn sàng*, *Problem Solved / Bài toán giải quyết*, *Practical Application / Ứng dụng thực tế*, *Core Architecture & Access*), và bổ sung bảng thành phần sẵn sàng + lộ trình triển khai `< 1 tuần` trong `/pc-ai-agentic/` & `/vi/pc-ai-agentic/`.
