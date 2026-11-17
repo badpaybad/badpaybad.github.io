@@ -1,17 +1,19 @@
 ---
-title: "A.I PC Agentic Workforce: Biến Máy Tính Cá Nhân Thành Nhân Sự AI Riêng Cho Công Ty Bạn"
-description: "Phần mềm SaaS chỉ khớp 60%–90% công việc hằng ngày. Với Forward Developer + AI, tôi đã triển khai thực tế hệ thống khớp 99%–100% quy trình trong chưa đầy 1 tuần — và hướng dẫn bạn làm việc tiếp với AI để tạo thành Harness Worker chạy ngay trên PC, giao việc dễ dàng qua Telegram, Facebook Messenger."
-summary: "Giới thiệu dễ hiểu về A.I PC Agentic Workforce: chuyển từ phần mềm SaaS chỉ đạt 60%–90% nhu cầu sang giải pháp Forward Developer + AI khớp 99%–100% trong dưới 1 tuần (triển khai thực tế), tiếp tục bồi đắp thành Harness Worker giao việc trực tiếp qua Telegram và Facebook Messenger ngay trên PC."
+title: "A.I PC Agentic Workforce: Turn Your Own PC Into a 99%–100% Fit AI Teammate"
+description: "Off-the-shelf SaaS only covers 60%–90% of daily business workflows. Pairing AI with a Forward Developer lets us build a 99%–100% match in under 1 week—and guiding your team to keep iterating with AI creates a tailored Harness Worker running right on your PC, reachable via Telegram and Facebook Messenger."
+summary: "A plain, practical introduction to A.I PC Agentic Workforce: moving from 60%–90% off-the-shelf SaaS to a 99%–100% workflow match built in under 1 week by a Forward Developer + AI, evolving through ongoing human-AI iteration into a Harness Worker controlled via Telegram and Facebook Messenger."
 date: 2026-04-15T19:19:12+07:00
 lastmod: 2026-11-15T09:24:00+07:00
 draft: false
+aliases:
+  - "/en/pc-ai-agentic/"
 showBreadcrumbs: true
 showTableOfContents: true
 heroDiagram: "/img/PC-A.I-Agentic-workforce.png"
 heroDiagramWidth: 1016
 heroDiagramHeight: 706
-heroDiagramAlt: "Sơ đồ kiến trúc PC A.I Agentic Workforce: nhân sự và quản lý làm việc cùng AI Agentic cục bộ trên PC kết nối bộ kỹ năng, tri thức Markdown, Company Server và phần mềm nghiệp vụ"
-heroDiagramCaption: "Mô hình **PC A.I Agentic Workforce**: mỗi nhân sự, trưởng phòng hoặc CEO/CTO có thêm một đồng nghiệp AI tự chủ ngay trên máy tính cá nhân — được đào tạo theo đúng quy trình, tri thức riêng của công ty."
+heroDiagramAlt: "PC A.I Agentic Workforce architecture diagram showing staff, managers, and executives collaborating with autonomous local PC AI agents equipped with Markdown knowledge, domain skills, company server sync, and existing business applications"
+heroDiagramCaption: "**PC A.I Agentic Workforce architecture**: every employee, manager, or executive gains an autonomous AI teammate right on their PC—trained on your company's exact workflows, rules, and Markdown knowledge."
 images:
   - "/img/PC-A.I-Agentic-workforce.png"
 tags:
@@ -26,116 +28,125 @@ keywords:
   - "PC AI Agentic Workforce"
   - "Forward Developer"
   - "Harness Worker"
-  - "AI khớp 99% quy trình dưới 1 tuần"
-  - "AI giao việc qua Telegram"
-  - "AI Agent Facebook Messenger"
-  - "Local LLM Ollama llama.cpp Gemma 4"
+  - "99% workflow fit under 1 week"
+  - "Telegram PC AI assistant"
+  - "Facebook Messenger AI Agent"
+  - "Ollama llama.cpp Gemma 4"
 ---
 
-**Tóm tắt dễ hiểu:** Phần mềm đóng gói bán sẵn (SaaS) thường chỉ đáp ứng được **60%–90%** công việc thực tế mỗi ngày của bạn và công ty bạn. Ngày nay, khi **AI kết hợp cùng một kỹ sư phần mềm ngồi trực tiếp bên cạnh bạn (Forward Developer)** để hiểu tận gốc quy trình vận hành, hệ thống khớp **99%–100% công việc thật** hoàn toàn có thể làm xong rất nhanh — **bản thân tôi đã triển khai thực tế trong chưa đầy 1 tuần**. Quan trọng hơn nữa: sau khi bàn giao, khi bạn được **hướng dẫn để tiếp tục trao đổi và làm việc cùng AI theo thời gian**, chính quá trình đó sẽ nhào nặn ra một **Harness Worker** bám sát 100% đặc thù công ty bạn — tạo thành đội ngũ **A.I PC Agentic Workforces** nhận việc trực tiếp qua **Telegram**, **Facebook Messenger**... ngay trên máy tính của bạn.
+**Executive Summary:** Standard packaged SaaS only satisfies **60% to 90%** of a company's daily operating needs—leaving the critical remainder to manual copy-pasting and workarounds. Today, when **AI** works alongside a **Forward Developer** sitting directly next to your team to understand how your business really runs, we can build software matching **99%–100% of your workflow in a short time—in my own real-world deployments, in under 1 week**. Even more importantly, when you are guided to keep collaborating and refining with AI over time, that ongoing loop builds a company-specific **Harness Worker** right on your PC—creating an **A.I PC Agentic Workforce** you can chat with and assign tasks to via **Telegram** or **Facebook Messenger**.
 
-## 1. Vì sao phần mềm SaaS chỉ đạt 60%–90%, còn Forward Developer + AI khớp 99%–100% dưới 1 tuần?
+## 1. Why SaaS Stops at 60%–90%, While Forward Developer + AI Hits 99%–100% in Under 1 Week
 
-Bất kỳ công ty nào dùng phần mềm bán sẵn (SaaS) đều từng gặp cảnh "phần mềm làm được việc chung, nhưng hụt đúng chỗ quan trọng nhất":
+Almost every team using generic SaaS hits the same frustration: *"It handles the standard 80%, yet misses the exact 20% that makes our business run."*
 
-- **Luôn hụt 10%–40% nghiệp vụ riêng**: Quy trình duyệt giá, chia đơn nhiều kho, báo cáo cuối ngày cho sếp hay cách chăm khách quen của công ty bạn không giống công ty khác — phần mềm đóng gói chỉ đáp ứng được khoảng **60%–90%**.
-- **Con người phải tự bù vào phần thiếu**: Nhân viên vẫn phải xuất file Excel từ phần mềm ra sửa tay, chụp ảnh màn hình gửi qua nhóm chat, hoặc gõ lại cùng một thông tin sang 2–3 ứng dụng khác nhau.
-- **Hướng tiếp cận mới — Forward Developer + AI**: Thay vì mua phần mềm viết cho hàng nghìn công ty rồi tự ép mình theo nó, một kỹ sư phần mềm giỏi ngồi cạnh bạn quan sát cách bạn làm việc thật hằng ngày, dùng AI làm đòn bẩy để dựng ngay giải pháp khớp **99%–100% nhu cầu thực tế** — với tốc độ triển khai thực chiến của tôi là **dưới 1 tuần**.
+- **The missing 10%–40% slows daily operations**: Custom pricing approvals, multi-warehouse stock handoffs, executive end-of-day digests, or VIP customer workflows rarely fit off-the-shelf templates.
+- **Humans become manual bridges**: Staff end up exporting spreadsheets, screenshotting chats, and re-typing the same order across two or three apps.
+- **A better path — Forward Developer + AI**: Instead of bending your company around rigid vendor software, a developer sits directly with your team, observes real daily tasks, and uses AI to deliver a **99%–100% tailored workflow fit**—in my own deployments, **in less than 1 week**.
 
-| Điều công ty bạn cần | Phần mềm SaaS đóng gói sẵn | Chatbot AI hỏi đáp thông thường | **A.I PC Agentic Workforce** |
+| What Your Business Needs | Packaged SaaS | Generic Web AI Chat | **A.I PC Agentic Workforce** |
 | :--- | :--- | :--- | :--- |
-| **Mức độ khớp công việc thật** | Chỉ đạt khoảng **60%–90%** | Chỉ trả lời chữ, không tự làm việc | Khớp **99%–100%** đúng thói quen vận hành |
-| **Thời gian làm xong bản chạy thật** | Nhiều tuần cấu hình, sửa tính năng chờ hàng tháng | Dùng ngay nhưng rời rạc từng câu hỏi | **Dưới 1 tuần** khi có Forward Developer ngồi cùng bạn |
-| **Càng dùng lâu dài thì sao?** | Phụ thuộc lịch nâng cấp của hãng bán | Hôm nay dặn, ngày mai chat lại phải dặn từ đầu | Bạn cùng AI lặp và chỉnh dần thành **Harness Worker** của riêng công ty |
-| **Cách nhân viên & sếp sử dụng** | Học giao diện web/app mới | Copy – paste qua lại vào trình duyệt | Nhắn tin giao việc qua **Telegram, Facebook Messenger** như chat với đồng nghiệp |
+| **Workflow Match** | Only **60%–90%** of real ops | Replies with text only; cannot execute work | **99%–100%** tailored to daily business habits |
+| **Time to Working Solution** | Weeks of setup; months for custom requests | Instant chat, disconnected from company tools | **Under 1 week** with a Forward Developer beside you |
+| **Long-Term Improvement** | Dependent on the SaaS vendor's roadmap | Repeat explanations every new chat | You iterate with AI into your own **Harness Worker** |
+| **How Your Team Uses It** | Learn another portal or dashboard | Copy and paste into browser tabs | Assign tasks via **Telegram or Facebook Messenger** like texting a teammate |
 
 ---
 
-## 2. Bí quyết dài hạn: Từ Forward Developer → Harness Worker → A.I PC Agentic Workforces
+## 2. How It Grows Over Time: Forward Developer → Harness Worker → A.I PC Agentic Workforce
 
-Điểm khác biệt lớn nhất không nằm ở chỗ code nhanh trong tuần đầu tiên, mà nằm ở **việc hoàn thiện dần theo thời gian**.
+Fast delivery in Week 1 is only the starting line. What makes the system truly valuable is how it keeps adapting with your business over time.
 
-### Bước 1: Tuần đầu tiên — Ngồi cạnh hiểu việc & khớp 99%–100%
+### Step 1: Week 1 — Sit Beside the Business & Match 99%–100%
 
-- **Không viết phần mềm theo suy đoán từ xa**: Kỹ sư ngồi trực tiếp cùng nhân sự vận hành để nắm từng bước nhận việc, kiểm tra dữ liệu và báo cáo.
-- **Triển khai thực tế dưới 1 tuần**: Kết hợp AI cùng bộ khung nền tảng sẵn có giúp biến đúng quy trình đang chạy tay thành hệ thống tự động chỉ trong vài ngày.
+- **Real observation beats remote assumptions**: The developer works right alongside staff to capture every real handoff, check, and edge case.
+- **Live in under 1 week**: Pairing AI coding workflows with proven reusable foundations turns manual bottlenecks into working tools in days, not quarters.
 
-### Bước 2: Hướng dẫn bạn tiếp tục làm việc cùng AI → Hình thành Harness Worker
+### Step 2: Guide Your Team to Keep Working With AI → Build a Harness Worker
 
-- **Bạn không bị lệ thuộc mãi vào người viết phần mềm**: Thay vì giao một hộp đen cứng nhắc rồi rời đi, tôi hướng dẫn chính bạn và nhân sự của công ty cách **viết yêu cầu bằng tiếng Việt bình thường, trao đổi, kiểm tra và duyệt kết quả cùng AI mỗi ngày**.
-- **Harness Worker nghĩa là gì cho dễ hiểu?**: Hãy tưởng tượng bạn tuyển một nhân viên mới rất thông minh (AI). Ban đầu bạn cần dặn dò từng bước: *"Gặp đơn kiểu A thì xử lý thế này, báo cáo cuối ngày viết theo mẫu B, khách hỏi giá thì kiểm tra bảng C rồi mới trả lời"*. Tập hợp toàn bộ **quy tắc làm việc + kinh nghiệm xử lý + thói quen công ty** được ghi lại có trật tự xung quanh AI đó chính là **Harness** — biến AI chung chung thành một **Harness Worker** làm việc chuẩn chỉnh, kỷ luật theo đúng ý bạn.
+- **No permanent dependency on a vendor**: After launch, we guide business owners and team leads on how to talk through new edge cases, refine instructions in plain language, and review results with AI day by day.
+- **What is a Harness Worker in plain terms?**: Think of AI like a sharp new hire. You teach them your company playbook: *"Handle order type A this way, format evening reports like template B, check inventory C before quoting."* All of those **operating rules, step-by-step instructions, reusable Skills, and company memory** wrapped around the AI form its **Harness**—turning generic AI into a disciplined **Harness Worker** tailored strictly to your company.
 
-![Quy trình phối hợp giữa Con người và AI giúp tích lũy quy tắc thành Harness Worker](/img/ai-agentic-spec-driven.png "Vòng lặp cộng tác đơn giản: Bạn ghi yêu cầu mới bằng ngôn ngữ tự nhiên (`yeucau.md`) → AI đọc hiểu và đưa cách làm (`phattrien.md`) → Bạn duyệt → AI thực hiện → Bạn kiểm tra kết quả thực tế.")
+![Spec-Driven Human-AI workflow loop showing how requirements turn into a disciplined Harness Worker](/img/ai-agentic-spec-driven.png "Simple ongoing collaboration loop: write or update requirements in plain language (`yeucau.md`) → AI proposes the plan (`phattrien.md`) → you review → AI executes → you verify real output.")
 
-### Bước 3: Nhân rộng thành A.I PC Agentic Workforces trong công ty
+### Step 3: Scale Across Roles Into an A.I PC Agentic Workforce
 
-- **Nhân viên (Staff)** có thêm cộng sự AI ngay trên máy tính để gánh bớt việc lặp lại, có thời gian tập trung cho khách hàng và sáng tạo.
-- **Trưởng phòng & Ban giám đốc (CEO, CTO)** không phải đợi cấp dưới gom số liệu thủ công, vì trợ lý AI trên PC đã chủ động tổng hợp thông tin đúng lúc để ra quyết định nhanh hơn.
-
----
-
-## 3. Cách hiểu đơn giản nhất: Máy tính (PC) thành "Nhân viên" nhận việc qua Telegram, Facebook Messenger
-
-Bạn **không cần biết lập trình**, cũng **không cần thuê máy chủ (Cloud Server)** đắt tiền hằng tháng. Hãy hình dung cách hoạt động chỉ với **3 bước quen thuộc như nhắn tin hằng ngày**:
-
-1. **Chiếc máy tính (PC) ở văn phòng hoặc ở nhà là "bàn làm việc" của nhân viên AI**: Máy bật sẵn ở công ty; mọi file tài liệu, phần mềm kế toán/kho/bán hàng hay trình duyệt mà bạn đang dùng vẫn giữ nguyên không phải bỏ đi.
-2. **Bạn mở Telegram hoặc Facebook Messenger nhắn việc bình thường**: Dù bạn đang đi ngoài đường, gặp khách hàng hay ở nhà, chỉ cần mở điện thoại nhắn tin, gửi ảnh chụp hoặc gửi file vào khung chat với Worker.
-3. **PC tự xử lý trên máy và báo kết quả lại ngay khung chat**: Worker tự đọc file, mở phần mềm hoặc tra cứu thông tin công ty theo quy tắc đã dạy, làm xong tự gửi báo cáo (hoặc xin phép bạn bấm "Duyệt" trước khi gửi cho khách).
-
-### Ví dụ 3 tình huống giao việc ngay hôm nay
-
-- **Sếp nhắn Telegram lúc 17:30**: *"Tổng hợp nhanh hôm nay có bao nhiêu đầu việc đang trễ trên Jira và nhóm chat kỹ thuật báo vấn đề gì?"* → PC ở văn phòng tự gom dữ liệu trong ngày, tóm tắt gọn thành mấy gạch đầu dòng gửi thẳng lại điện thoại.
-- **Khách nhắn hỏi hàng vào Facebook Messenger Fanpage lúc 22:00**: Hệ thống Agentic kết nối Fanpage đọc câu hỏi, đối chiếu đúng danh mục hàng hóa/khuyến mãi của shop rồi soạn câu trả lời chuẩn chỉ trong vài giây (cho phép chọn chế độ AI tự trả lời ngay hoặc để nhân viên kiểm duyệt 1 chạm).
-- **Nhân viên gửi file Word / Excel / ảnh chứng từ qua chat**: Worker đọc nội dung, đối chiếu quy chuẩn công ty đã lưu trong bộ nhớ rồi trả về bảng tổng hợp hoặc tự nhập vào hệ thống đang dùng — không còn cảnh gõ lại bằng tay.
+- **Staff members** gain a dedicated PC co-worker that takes over repetitive lookups and formatting, freeing humans for customers and judgment calls.
+- **Managers & Executives (CEO, CTO, Leads)** receive timely operational summaries directly instead of waiting on manual spreadsheet rollups.
 
 ---
 
-## 4. Góc nhìn Kỹ thuật (Hệ thống bên dưới chạy gọn nhẹ như thế nào?)
+## 3. The Simplest Way to Picture It: Turn a PC Into a Teammate on Telegram & Facebook Messenger
 
-Phần này dành cho CTO, IT Manager hoặc lập trình viên muốn biết kiến trúc kiểm chứng đứng sau sự đơn giản ở trên (dựa trên mã nguồn mở [`a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles) và hệ sinh thái [`fossagentic.men`](https://fossagentic.men/)):
+You **do not need to know how to code**, and you **do not need to rent expensive cloud servers** every month. Imagine working with your PC agent in **3 simple steps**:
 
-- **Không cần thuê Server hay mua IP tĩnh**: Chương trình chạy trực tiếp trên PC cá nhân/máy trạm và mở kết nối bảo mật qua **Cloudflare Tunnel (HTTPS Webhook miễn phí)** để nhận sự kiện tức thì từ Telegram hoặc Facebook Messenger.
-- **Linh hoạt 2 động cơ AI (Cloud LLM + Local LLM ngay trên PC)**:
-  - Kết nối **Cloud API (như Gemini)** cho những tác vụ suy luận sâu, lập kế hoạch phức tạp.
-  - Chạy **Local LLM ngay trên PC (`Ollama`, `llama.cpp`, `Gemma 4`)** cho dữ liệu nội bộ nhạy cảm cần giữ **100% tại máy (on-premise)** và **không phát sinh tiền token**.
-- **Bộ kỹ năng dạng mô-đun (`Skills/`) & Tri thức Markdown (`.md`)**: Các kỹ năng đóng gói sẵn như thao tác trình duyệt (`Playwright`), đọc màn hình/OCR (`PyAutoGUI`), quản lý file nội bộ (`filesfolders`, `googledrive`, Nextcloud), `jira`, tóm tắt nhóm chat (`zalo`), CLI và phát triển tính năng mới (`new_feature_dev` trong Google Antigravity) — cùng bộ nhớ `SQLite` / `RAG` viết bằng Markdown để cả người và AI đều đọc sửa được dễ dàng.
+1. **A PC or Mini-PC at your office acts as the worker's desk**: Your existing spreadsheets, Word/PDF documents, browsers, and accounting/ERP apps stay right where they are.
+2. **Send a task naturally on Telegram or Facebook Messenger**: On the road or between meetings, send a text, voice note, or photo just as you would message an assistant.
+3. **The PC handles the work and reports back in the same chat**: Your PC worker follows your saved rules, finishes the task (or pauses to ask for your one-tap approval), and sends the outcome right back to chat.
 
----
+### Three Everyday Scenarios Anyone Can Use
 
-## 5. Câu hỏi thường gặp (FAQ)
-
-### Forward Developer là gì? Tại sao lại làm khớp 99%–100% nhanh dưới 1 tuần?
-
-**Forward Developer (Forward-Deployed Developer)** là kỹ sư phần mềm làm việc trực tiếp cùng đội ngũ vận hành thay vì ngồi từ xa đọc bản mô tả chung chung. Nhờ hiểu ngay từng bước làm thật tại công ty và dùng AI tăng tốc lập trình trên nền kiến trúc sẵn có, kỹ sư có thể dựng phiên bản chạy đúng **99%–100%** nghiệp vụ chỉ trong **chưa đầy 1 tuần** — tốc độ đã được tôi triển khai thực tế.
-
-### Tôi và nhân viên không biết code có dùng được AI PC Agentic Workforce không?
-
-**Hoàn toàn dùng được.** Hằng ngày bạn chỉ cần nhắn tin giao việc bằng Tiếng Việt tự nhiên trên **Telegram**, **Facebook Messenger**... giống hệt nhắn cho một người đồng nghiệp. Sau khi bàn giao, bạn còn được hướng dẫn cách phản hồi và dặn dò để AI ngày càng hiểu đúng việc công ty (trở thành **Harness Worker**).
-
-### Không thuê server ngoài thì khi mất điện hoặc tắt máy tính thì sao?
-
-PC đóng vai trò như nơi làm việc của nhân sự số — máy có thể đặt gọn ngay tại văn phòng (chỉ cần một chiếc PC hoặc Mini-PC bật giờ hành chính hoặc chạy 24/7 như máy chấm công/camera). Vì toàn bộ dữ liệu và bộ nhớ nằm ngay trên ổ cứng máy của bạn dưới dạng file Markdown/SQLite gọn nhẹ, bạn toàn quyền kiểm soát và sao lưu dễ dàng mà không phụ thuộc chi phí thuê cloud bên thứ ba.
-
-### Dữ liệu bí mật của công ty có bị gửi hết lên mạng không?
-
-**Không bắt buộc.** Nhờ kiến trúc **Local-first**, tài liệu công ty nằm ngay trên PC nội bộ. Với dữ liệu nhạy cảm (hợp đồng, bảng giá vốn, thông tin khách hàng nội bộ), Worker có thể xử lý hoàn toàn ngoại tuyến bằng mô hình AI chạy trực tiếp trên máy tính (`Ollama`, `llama.cpp`, `Gemma 4`).
+- **End-of-day manager check on Telegram**: Ask *"Summarize today's overdue Jira tasks and key team chat updates"* → your office PC collects the details and replies with clean bullet points straight to your phone.
+- **Customer support & sales on Facebook Messenger**: Incoming Fanpage messages route to the agentic sales workspace (`AI Sale Agent` in `fossagentic.men`), checking product specs/promotions and drafting or sending accurate replies within seconds (in full auto mode or staff-approved co-pilot mode).
+- **Drop in a PDF, Excel sheet, or photo of an invoice**: The PC worker extracts data according to your company's rules and returns a structured summary or updates your existing tool—eliminating manual re-entry.
 
 ---
 
-## 6. Tài nguyên Thực chiến & Liên hệ Triển khai
+## 4. Production System Architecture — Ready to Deploy Today
 
-Xem mã nguồn, các bài phân tích và sản phẩm thương mại đang vận hành của **Nguyễn Phan Du (`@badpaybad`)**:
+Every component needed to run **A.I PC Agentic Workforce** is already built, tested, and verified in open-source and production deployments ([`a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles) and [`fossagentic.men`](https://fossagentic.men/)):
 
-- **Mã nguồn mở PC AI Worker qua Telegram (không cần server)**: [`badpaybad/a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
-- **Hệ sinh thái sản phẩm & AI Sale Agent Facebook Messenger**: [`fossagentic.men`](https://fossagentic.men/) · [AI Sale Agent Đa Kênh](https://fossagentic.men/#ai-sale-agent)
-- **Bộ khung Foundation & Spec-driven**: [`badpaybad/a.i-foundation-boilerplate`](https://github.com/badpaybad/a.i-foundation-boilerplate)
-- **Bài viết kỹ thuật về Harness & Spec-driven**: [Prompt Engineering - Prompting Strategies](/sharing/prompt-engineering-prompting-strategies/)
+| Layer | Proven Component | System Readiness & Role |
+| :--- | :--- | :--- |
+| **Chat Channels** | **Telegram** (`Bot API` / `Telethon`), **Facebook Messenger** (`Webhook` + `Sales Cockpit`), CLI | Ready to assign tasks, approve drafts, and receive alerts from mobile or desktop |
+| **Zero-Server Network** | **Cloudflare Tunnel** (outbound encrypted HTTPS webhook) | No cloud VM rental, no static public IP, no firewall port-forwarding required |
+| **Dual AI Brain** | **Cloud API (Gemini)** + **Local LLM on PC (`Ollama`, `llama.cpp`, `Gemma 4`)** | Route complex reasoning to Cloud or keep sensitive company documents **100% offline/on-premise** at zero token fee |
+| **Plug-and-Play `Skills/`** | `browser` (`Playwright`), `PyAutoGUI`/OCR, `filesfolders`, `googledrive`, `jira`, `zalo`, `cli`, `new_feature_dev` | Operates directly inside your existing software, browsers, spreadsheets, and codebases |
+| **Transparent Memory** | **Markdown (`.md`) + `SQLite` / `RAG`** | Human-readable business playbooks and SOPs both you and AI can audit and update anytime |
 
-### Liên hệ trao đổi trực tiếp (Ngồi cùng công ty bạn ngay từ tuần đầu)
+### Standard `< 1 Week` Deployment Cadence
 
-- **Hotline / Zalo Kỹ thuật**: [0778.384.849](tel:0778384849)
+1. **Days 1–2 (On-Site / Direct Workflow Shadowing)**: Observe daily operations across staff, orders, and reporting to pinpoint the **10%–40%** gaps SaaS misses.
+2. **Days 3–5 (AI-Accelerated Custom Build)**: Assemble modular `Skills/`, foundation services, and interfaces delivering a **99%–100%** workflow fit on real company data.
+3. **Days 6–7 (Channel Go-Live & Team Handover)**: Connect **Telegram / Facebook Messenger**, verify permissions and local/cloud AI routing, and coach your team on how to review outputs.
+4. **Week 2+ (Continuous Iteration → Harness Worker)**: As staff refine rules in plain Markdown (`yeucau.md` → `phattrien.md`), the agent matures into an enduring, company-owned **Harness Worker**.
+
+---
+
+## 5. Frequently Asked Questions (FAQ)
+
+### What is a Forward Developer, and how does AI deliver 99%–100% fit in under 1 week?
+
+A **Forward Developer (Forward-Deployed Developer)** sits directly beside your operations team instead of guessing requirements from afar. Because the developer sees real daily workflows firsthand and uses AI to accelerate implementation on proven building blocks, reaching a **99%–100% workflow match in under 1 week** is practical—and matches my own real deployment timeline.
+
+### Can non-technical business owners and staff use this daily?
+
+**Yes.** Day-to-day usage happens entirely through plain-language messages on **Telegram**, **Facebook Messenger**, and familiar chat tools—plus guided check-ins so your team can keep evolving rules with AI over time into a **Harness Worker**.
+
+### What happens if we don't rent a cloud server?
+
+A lightweight office PC or Mini-PC runs the worker cleanly on-site (just like an office attendance terminal or local workstation). All company SOPs and memory stay on your own drive as portable Markdown and SQLite files with full owner control.
+
+### Does confidential business data have to leave our company?
+
+**No.** With a **local-first** architecture, documents and customer logs remain on your machine. Sensitive tasks can run completely offline using local models (`Ollama`, `llama.cpp`, `Gemma 4`).
+
+---
+
+## 6. Open-Source Code, Live Ecosystem & Contact
+
+Explore the codebases, technical notes, and live systems built by **Nguyễn Phan Du (`@badpaybad`)**:
+
+- **Open-Source Serverless Telegram PC AI Worker**: [`badpaybad/a.i-assistant-chatbot-telegram-serverles`](https://github.com/badpaybad/a.i-assistant-chatbot-telegram-serverles)
+- **Commercial Ecosystem & Facebook Messenger AI Sale Agent**: [`fossagentic.men`](https://fossagentic.men/) · [AI Sale Agent Overview](https://fossagentic.men/#ai-sale-agent)
+- **Spec-Driven Enterprise Foundation Boilerplate**: [`badpaybad/a.i-foundation-boilerplate`](https://github.com/badpaybad/a.i-foundation-boilerplate)
+- **Technical Article on LLM Loops & Harnessing**: [Prompt Engineering - Prompting Strategies](/sharing/prompt-engineering-prompting-strategies/)
+
+### Get in Touch
+
+- **Hotline / Technical Zalo**: [+84 778 384 849](tel:0778384849)
 - **Email**: [badpaybad@gmail.com](mailto:badpaybad@gmail.com)
 - **Telegram**: [@badpaybad](https://t.me/badpaybad)
 - **Facebook**: [facebook.com/badpaybad](https://facebook.com/badpaybad)
 - **GitHub**: [github.com/badpaybad](https://github.com/badpaybad)
-- **Hồ sơ tác giả**: [Nguyễn Phan Du](/me/)
+- **About the Author**: [Nguyễn Phan Du](/me/)
